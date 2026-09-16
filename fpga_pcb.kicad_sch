@@ -168,6 +168,82 @@
 		)
 	)
 	(sheet
+		(at 59.69 40.64)
+		(size 59.69 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "943ce1ef-8f36-41d4-9a3e-796256576acd")
+		(property "Sheetname" "ADC"
+			(at 59.69 39.9284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ADC.kicad_sch"
+			(at 59.69 76.7846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ADC0" input
+			(at 119.38 55.88 0)
+			(uuid "5b03bc28-24c1-4a33-9d00-8a27fd321360")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADC1" input
+			(at 119.38 58.42 0)
+			(uuid "1d79ceaf-d8bf-4126-a603-f46c372b11fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADC_SPI" bidirectional
+			(at 59.69 60.96 180)
+			(uuid "3c0e5d09-3f3b-4414-933a-e0623259171f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "fpga_pcb"
+				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 233.68 17.78)
 		(size 33.02 40.64)
 		(exclude_from_sim no)

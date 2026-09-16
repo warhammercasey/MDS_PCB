@@ -2,9 +2,217 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid 0e44f7b0-1a4a-4ef8-a122-38b9269be26a)
+	(uuid "0e44f7b0-1a4a-4ef8-a122-38b9269be26a")
 	(paper "A4")
 	(lib_symbols)
+	(text "TLV320ADC6140"
+		(exclude_from_sim no)
+		(at 73.152 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7075dbd9-9ccb-44ed-9992-6588af11e87f")
+	)
+	(sheet
+		(at 45.72 86.36)
+		(size 43.18 53.34)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "06f2505c-1bc0-4f35-88c2-eca33d853bec")
+		(property "Sheetname" "USB"
+			(at 45.72 85.6484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB.kicad_sch"
+			(at 45.72 140.2846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "FTDI_SPI" bidirectional
+			(at 88.9 93.98 0)
+			(uuid "35336a3a-958c-49e2-8dca-6e27e2aa636c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FTDI_BB" bidirectional
+			(at 88.9 105.41 0)
+			(uuid "d8aa0cc8-eebb-4a6f-a353-68b345b6bc3e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FTDI_JTAG" bidirectional
+			(at 88.9 97.79 0)
+			(uuid "3321716a-139b-4d6a-9038-ba40a9919bcc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FTDI_UART" bidirectional
+			(at 88.9 101.6 0)
+			(uuid "1f88482d-9eb1-4ce6-a26f-0ad371f111ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "fpga_pcb"
+				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 121.92 85.09)
+		(size 49.53 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "084d8d2f-03c9-428d-952f-0b395d0c8827")
+		(property "Sheetname" "FPGA"
+			(at 121.92 84.3784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FPGA.kicad_sch"
+			(at 121.92 136.4746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "FTDI_JTAG" bidirectional
+			(at 121.92 104.14 180)
+			(uuid "7f6f776c-d940-4177-af74-252b7e29eb62")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FTDI_SPI" bidirectional
+			(at 121.92 100.33 180)
+			(uuid "4adfce00-b6c5-446a-9213-bf23100767e7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "fpga_pcb"
+				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 233.68 17.78)
+		(size 33.02 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e4c7996f-e2f6-407a-98e5-ee21df2956a8")
+		(property "Sheetname" "Power"
+			(at 233.68 17.0684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 233.68 59.0046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "fpga_pcb"
+				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a"
+					(page "3")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

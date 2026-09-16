@@ -207,6 +207,7 @@
       "bus_entry_needed": "error",
       "bus_to_bus_conflict": "error",
       "bus_to_net_conflict": "error",
+      "conflicting_netclasses": "error",
       "different_unit_footprint": "error",
       "different_unit_net": "error",
       "duplicate_reference": "error",
@@ -217,6 +218,7 @@
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
       "four_way_junction": "ignore",
+      "global_label_dangling": "warning",
       "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
       "isolated_pin_label": "warning",
@@ -290,10 +292,14 @@
   },
   "pcbnew": {
     "last_paths": {
+      "gencad": "",
       "idf": "",
       "netlist": "",
       "plot": "",
+      "pos_files": "",
       "specctra_dsn": "",
+      "step": "",
+      "svg": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -404,16 +410,46 @@
     "meta": {
       "version": 1
     },
+    "net_format_name": "",
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
+    "spice_current_sheet_as_root": false,
+    "spice_external_command": "spice \"%I\"",
+    "spice_model_current_sheet_as_root": true,
+    "spice_save_all_currents": false,
+    "spice_save_all_dissipations": false,
+    "spice_save_all_voltages": false,
     "subpart_first_id": 65,
     "subpart_id_separator": 0,
-    "top_level_sheets": [],
-    "used_designators": "",
+    "top_level_sheets": [
+      {
+        "filename": "fpga_pcb.kicad_sch",
+        "name": "fpga_pcb",
+        "uuid": "0e44f7b0-1a4a-4ef8-a122-38b9269be26a"
+      }
+    ],
+    "used_designators": "R18-30,#PWR44-51,C15-34",
     "variants": []
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "0e44f7b0-1a4a-4ef8-a122-38b9269be26a",
+      "fpga_pcb"
+    ],
+    [
+      "084d8d2f-03c9-428d-952f-0b395d0c8827",
+      "FPGA"
+    ],
+    [
+      "e4c7996f-e2f6-407a-98e5-ee21df2956a8",
+      "Power"
+    ],
+    [
+      "06f2505c-1bc0-4f35-88c2-eca33d853bec",
+      "USB"
+    ]
+  ],
   "text_variables": {},
   "tuning_profiles": {
     "meta": {

@@ -2187,6 +2187,28 @@
 				)
 			)
 		)
+		(property "Digikey PN" "311-127HRCT-ND"
+			(at 104.14 68.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Cost" "0.10"
+			(at 104.14 68.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "df069824-b624-4748-9349-e89d1d3034e0")
 		)
@@ -2258,6 +2280,28 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 104.14 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "311-127HRCT-ND"
+			(at 104.14 52.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Cost" "0.10"
+			(at 104.14 52.07 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2416,6 +2460,28 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 104.14 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "311-127HRCT-ND"
+			(at 104.14 151.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Cost" "0.10"
+			(at 104.14 151.13 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2585,6 +2651,28 @@
 				)
 			)
 		)
+		(property "Digikey PN" "1276-6854-1-ND"
+			(at 109.22 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Cost" "0.055"
+			(at 109.22 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "350554b2-5507-4c56-a248-4bf90f2bf787")
 		)
@@ -2735,6 +2823,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 109.22 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "1276-6854-1-ND"
+			(at 109.22 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Cost" "0.055"
 			(at 109.22 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -2983,6 +3093,28 @@
 				)
 			)
 		)
+		(property "Digikey PN" "1276-6854-1-ND"
+			(at 109.22 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Cost" "0.055"
+			(at 109.22 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "823c82b0-233e-49fd-aecf-289c2061d373")
 		)
@@ -3055,6 +3187,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 187.96 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "1276-6854-1-ND"
+			(at 187.96 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Cost" "0.055"
 			(at 187.96 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -3224,6 +3378,28 @@
 				)
 			)
 		)
+		(property "Digikey PN" "1276-6854-1-ND"
+			(at 194.31 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Cost" "0.055"
+			(at 194.31 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "361026ed-326e-4d77-8903-7aed5cb6e788")
 		)
@@ -3296,6 +3472,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 109.22 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "1276-6854-1-ND"
+			(at 109.22 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Cost" "0.055"
 			(at 109.22 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -3388,6 +3586,28 @@
 				)
 			)
 		)
+		(property "Digikey PN" "1276-6854-1-ND"
+			(at 109.22 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Cost" "0.055"
+			(at 109.22 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "aa21ab63-e9a2-430e-be08-2634dcfbf847")
 		)
@@ -3460,6 +3680,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 109.22 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "1276-6854-1-ND"
+			(at 109.22 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Cost" "0.055"
 			(at 109.22 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -3697,6 +3939,28 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 104.14 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "311-127HRCT-ND"
+			(at 104.14 167.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Cost" "0.10"
+			(at 104.14 167.64 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4022,6 +4286,28 @@
 				)
 			)
 		)
+		(property "Digikey PN" "1276-6854-1-ND"
+			(at 109.22 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Cost" "0.055"
+			(at 109.22 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "32d16f53-c351-44a3-ab94-bd49609da8ab")
 		)
@@ -4180,6 +4466,28 @@
 				)
 			)
 		)
+		(property "Digikey PN" "311-127HRCT-ND"
+			(at 104.14 118.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Cost" "0.10"
+			(at 104.14 118.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "884fa209-3a32-447f-a911-e5bc6d9992c1")
 		)
@@ -4251,6 +4559,28 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 104.14 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "311-127HRCT-ND"
+			(at 104.14 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Cost" "0.10"
+			(at 104.14 101.6 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4340,6 +4670,28 @@
 				)
 			)
 		)
+		(property "Digikey PN" "311-127HRCT-ND"
+			(at 104.14 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Cost" "0.10"
+			(at 104.14 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "138d8913-968b-44c7-8f0c-dc09aab300fb")
 		)
@@ -4412,6 +4764,28 @@
 			)
 		)
 		(property "Description" "Low power 8-channel single ended 12-bit SAR ADC, 50 ksps to 200 ksps, SPI, TSSOP-16"
+			(at 151.13 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "497-ADC1283IPTCT-ND"
+			(at 151.13 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Cost" "2.50"
 			(at 151.13 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -4546,6 +4920,28 @@
 				)
 			)
 		)
+		(property "Digikey PN" "1276-6854-1-ND"
+			(at 109.22 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Cost" "0.055"
+			(at 109.22 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ace44263-76d1-43ed-b45d-008f9ae49a4b")
 		)
@@ -4617,6 +5013,28 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 104.14 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "311-127HRCT-ND"
+			(at 104.14 134.62 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Cost" "0.10"
+			(at 104.14 134.62 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

@@ -28,7 +28,20 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "endpoint_off_grid|1053691|228600|b9a4bce6-13dc-49d6-96a9-eefca2a7e89e|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "power_pin_not_driven|1752600|1066800|01ce6a9b-ffe0-4f8a-a53a-8685259abcfc|00000000-0000-0000-0000-000000000000|/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/e4c7996f-e2f6-407a-98e5-ee21df2956a8|/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/e4c7996f-e2f6-407a-98e5-ee21df2956a8|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|203200|241300|bbf16087-4687-4c49-a99d-fa81d99b1e75|00000000-0000-0000-0000-000000000000|/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/084d8d2f-03c9-428d-952f-0b395d0c8827|/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/084d8d2f-03c9-428d-952f-0b395d0c8827|",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -372,12 +385,72 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "DigiKey PN",
+          "name": "DigiKey PN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Link",
+          "name": "Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Packaging User Guide",
+          "name": "Packaging User Guide",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "AN006",
+          "name": "AN006",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Digikey PN",
+          "name": "Digikey PN",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Unit Cost",
+          "name": "Unit Cost",
+          "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -429,7 +502,7 @@
         "uuid": "0e44f7b0-1a4a-4ef8-a122-38b9269be26a"
       }
     ],
-    "used_designators": "",
+    "used_designators": "J12,R64,R72,#FLG1-2,TP1-33,#PWR134-137",
     "variants": []
   },
   "sheets": [

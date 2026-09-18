@@ -5,6 +5,129 @@
 	(uuid "0c552bb2-8d64-420f-9123-0e5d8d707816")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:USB_B_Mini"
 			(pin_names
 				(offset 1.016)
@@ -3079,6 +3202,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:VBUS"
 			(power global)
 			(pin_numbers
@@ -3295,6 +3533,12 @@
 		(uuid "024051cd-b801-4da0-84ba-02ba27821ea9")
 	)
 	(junction
+		(at 132.08 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05469f33-2546-4f85-9689-cb6f1dcb5a47")
+	)
+	(junction
 		(at 149.86 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3305,12 +3549,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1c197b51-3509-4818-9238-096e90a0bf04")
-	)
-	(junction
-		(at 63.5 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1d957643-5153-4eea-aace-86250c4d693a")
 	)
 	(junction
 		(at 132.08 158.75)
@@ -3379,6 +3617,12 @@
 		(uuid "69cdd22d-994b-448e-815a-0e0a2e071fdb")
 	)
 	(junction
+		(at 105.3691 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75a6cb09-01eb-44cc-9391-87cfe90b5cea")
+	)
+	(junction
 		(at 139.7 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3407,6 +3651,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9af8371c-fbf3-40fc-8445-5dd0e71a10bd")
+	)
+	(junction
+		(at 72.39 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b8967ad-0f70-4060-a55b-43ee6e4cdf5f")
 	)
 	(junction
 		(at 181.61 36.83)
@@ -3505,6 +3755,12 @@
 		(uuid "f3dc1983-7ab2-4dd9-9610-e9be48a4a140")
 	)
 	(junction
+		(at 129.54 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f513b767-d912-4383-a1c2-d629140759a1")
+	)
+	(junction
 		(at 92.71 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3531,6 +3787,10 @@
 	(no_connect
 		(at 172.72 91.44)
 		(uuid "402c9f05-33d8-4714-ade5-86b70d4cc593")
+	)
+	(no_connect
+		(at 69.85 86.36)
+		(uuid "440faf26-f695-4cc7-af2f-a11e70e8ea67")
 	)
 	(no_connect
 		(at 172.72 111.76)
@@ -3582,6 +3842,15 @@
 		(uuid "0036d569-8e64-4df1-9b53-cb554270cc4d")
 	)
 	(bus_entry
+		(at 190.5 144.78)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "025d1d43-de57-456e-a6cb-a988c584602a")
+	)
+	(bus_entry
 		(at 186.69 58.42)
 		(size 2.54 2.54)
 		(stroke
@@ -3589,6 +3858,15 @@
 			(type default)
 		)
 		(uuid "0299c40b-f3e6-48aa-b73f-a4dd0b44d6ca")
+	)
+	(bus_entry
+		(at 200.66 144.78)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1487f36f-3669-47a2-a762-a92c7e6ecb88")
 	)
 	(bus_entry
 		(at 186.69 66.04)
@@ -3618,6 +3896,15 @@
 		(uuid "2b47d6de-5f45-4425-9a47-21d8cde2dfeb")
 	)
 	(bus_entry
+		(at 205.74 144.78)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44bdd62a-3295-4f22-bcd0-b6bf5d024070")
+	)
+	(bus_entry
 		(at 186.69 142.24)
 		(size 2.54 2.54)
 		(stroke
@@ -3627,6 +3914,15 @@
 		(uuid "50f53e57-9cba-40a2-9a7f-70a35a708769")
 	)
 	(bus_entry
+		(at 210.82 144.78)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "559d9058-fc29-4f6d-a4cb-c59b45ca2844")
+	)
+	(bus_entry
 		(at 186.69 134.62)
 		(size 2.54 2.54)
 		(stroke
@@ -3634,6 +3930,15 @@
 			(type default)
 		)
 		(uuid "57f05960-f2f1-4e79-8e8f-04133dad2a3d")
+	)
+	(bus_entry
+		(at 215.9 144.78)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65ac190e-16bc-48ae-8949-fcee79ac095f")
 	)
 	(bus_entry
 		(at 186.69 127)
@@ -3654,6 +3959,15 @@
 		(uuid "67a785af-3e18-43aa-9a6a-d1b90d4da4f7")
 	)
 	(bus_entry
+		(at 220.98 144.78)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f7b9e4f-0f9c-40de-a890-231f16b81a91")
+	)
+	(bus_entry
 		(at 186.69 124.46)
 		(size 2.54 2.54)
 		(stroke
@@ -3670,6 +3984,24 @@
 			(type default)
 		)
 		(uuid "90362615-615e-4886-9caa-e9c074140445")
+	)
+	(bus_entry
+		(at 226.06 144.78)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94beb8e1-10b0-4eed-be93-cc121a5461a3")
+	)
+	(bus_entry
+		(at 195.58 144.78)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad1eb5a8-8ffb-43bf-8c41-2bdeb9dcd64d")
 	)
 	(bus_entry
 		(at 186.69 68.58)
@@ -3934,6 +4266,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 147.32) (xy 228.6 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a21b353-c87c-4885-af2e-a1106733e781")
+	)
+	(wire
+		(pts
 			(xy 111.76 88.9) (xy 96.52 88.9)
 		)
 		(stroke
@@ -3944,7 +4286,7 @@
 	)
 	(bus
 		(pts
-			(xy 189.23 96.52) (xy 237.49 96.52)
+			(xy 189.23 96.52) (xy 190.5 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3961,6 +4303,16 @@
 			(type default)
 		)
 		(uuid "1ee5f166-df00-4903-af2d-64b55f5cad41")
+	)
+	(wire
+		(pts
+			(xy 132.08 21.59) (xy 132.08 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2184f13d-4c10-4ba1-b0fa-5ea324786e34")
 	)
 	(wire
 		(pts
@@ -4024,6 +4376,36 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 147.32) (xy 203.2 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c619bc3-2f3c-4f6c-aeb5-89b7b5f09c92")
+	)
+	(wire
+		(pts
+			(xy 129.54 35.56) (xy 129.54 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cbbabf7-d3ec-46fd-83b0-f685ee51286a")
+	)
+	(wire
+		(pts
+			(xy 193.04 147.32) (xy 193.04 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d3c961e-ee0a-439e-947e-8b4e0e676a45")
+	)
+	(wire
+		(pts
 			(xy 96.52 88.9) (xy 96.52 91.44)
 		)
 		(stroke
@@ -4034,6 +4416,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 154.94) (xy 72.39 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33d7affa-2f9a-4205-a935-296441711af2")
+	)
+	(wire
+		(pts
 			(xy 53.34 154.94) (xy 54.61 154.94)
 		)
 		(stroke
@@ -4041,6 +4433,16 @@
 			(type default)
 		)
 		(uuid "34dc2299-f199-480a-8bf3-a12b0e18bf5a")
+	)
+	(wire
+		(pts
+			(xy 92.71 34.29) (xy 92.71 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35553f67-7189-4305-9991-3b3c41ec8a3b")
 	)
 	(wire
 		(pts
@@ -4104,6 +4506,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 147.32) (xy 218.44 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38bee5ed-81a7-44d9-8a30-de9bbd3aa12b")
+	)
+	(wire
+		(pts
 			(xy 100.33 162.56) (xy 95.25 162.56)
 		)
 		(stroke
@@ -4121,6 +4533,16 @@
 			(type default)
 		)
 		(uuid "3d72b804-df83-4529-829f-93e99c9c58a9")
+	)
+	(wire
+		(pts
+			(xy 99.06 121.92) (xy 111.76 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3da51f88-154f-44b2-8779-a0afcb0cb6eb")
 	)
 	(wire
 		(pts
@@ -4214,6 +4636,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 60.96) (xy 104.14 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "502c8c6e-c459-4e7e-a0db-0776c4b7b4a0")
+	)
+	(wire
+		(pts
 			(xy 245.11 36.83) (xy 245.11 35.56)
 		)
 		(stroke
@@ -4294,6 +4726,26 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 124.46) (xy 111.76 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "626679a0-9ec2-4ce5-ac37-7d4b38e96ed8")
+	)
+	(wire
+		(pts
+			(xy 101.6 59.69) (xy 101.6 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6628ceb0-1846-436d-9923-ca4e9bb7b923")
+	)
+	(wire
+		(pts
 			(xy 72.39 140.97) (xy 72.39 139.7)
 		)
 		(stroke
@@ -4341,16 +4793,6 @@
 			(type default)
 		)
 		(uuid "6ee398d9-8efb-408d-af31-fda16866fcb1")
-	)
-	(wire
-		(pts
-			(xy 100.33 121.92) (xy 111.76 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71ce2651-73a7-4050-8b17-3c4b7bbe621d")
 	)
 	(wire
 		(pts
@@ -4404,16 +4846,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 127) (xy 111.76 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76d4ab47-0b8a-432d-beae-ab9fb2032819")
-	)
-	(wire
-		(pts
 			(xy 96.52 99.06) (xy 96.52 100.33)
 		)
 		(stroke
@@ -4431,6 +4863,16 @@
 			(type default)
 		)
 		(uuid "7b4a0a8b-4171-4224-b110-f50e2e7038cf")
+	)
+	(wire
+		(pts
+			(xy 223.52 147.32) (xy 223.52 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c12473f-4b8a-465c-b094-6fd0cc2382ec")
 	)
 	(wire
 		(pts
@@ -4484,7 +4926,7 @@
 	)
 	(bus
 		(pts
-			(xy 189.23 144.78) (xy 237.49 144.78)
+			(xy 189.23 144.78) (xy 232.41 144.78)
 		)
 		(stroke
 			(width 0)
@@ -4564,7 +5006,7 @@
 	)
 	(bus
 		(pts
-			(xy 189.23 119.38) (xy 237.49 119.38)
+			(xy 189.23 119.38) (xy 190.5 119.38)
 		)
 		(stroke
 			(width 0)
@@ -4634,13 +5076,13 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 154.94) (xy 63.5 154.94)
+			(xy 198.12 147.32) (xy 198.12 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8e3cf610-99f2-4667-bc6a-3832281849dc")
+		(uuid "8e3c2440-16f7-4062-ab13-c2e7b2867a42")
 	)
 	(wire
 		(pts
@@ -4824,7 +5266,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 35.56) (xy 129.54 48.26)
+			(xy 129.54 34.29) (xy 129.54 35.56)
 		)
 		(stroke
 			(width 0)
@@ -4894,6 +5336,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 127) (xy 111.76 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4a53df4-0b0b-44e8-878a-cda5f094a40c")
+	)
+	(wire
+		(pts
 			(xy 111.76 144.78) (xy 100.33 144.78)
 		)
 		(stroke
@@ -4934,6 +5386,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 21.59) (xy 105.3691 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9a4bce6-13dc-49d6-96a9-eefca2a7e89e")
+	)
+	(wire
+		(pts
 			(xy 219.71 35.56) (xy 219.71 36.83)
 		)
 		(stroke
@@ -4941,6 +5403,16 @@
 			(type default)
 		)
 		(uuid "b9c8807d-40f4-4801-82ca-baa59eca65d6")
+	)
+	(wire
+		(pts
+			(xy 62.23 154.94) (xy 63.5 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9e765d0-cd45-4af9-b0a6-3790b35be6ea")
 	)
 	(wire
 		(pts
@@ -4961,6 +5433,16 @@
 			(type default)
 		)
 		(uuid "be9c777c-be76-4c5f-8eae-aa5c6ede8910")
+	)
+	(wire
+		(pts
+			(xy 213.36 147.32) (xy 213.36 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf30fb48-e309-4595-901e-12f1fa73822e")
 	)
 	(wire
 		(pts
@@ -5214,7 +5696,7 @@
 	)
 	(bus
 		(pts
-			(xy 189.23 73.66) (xy 237.49 73.66)
+			(xy 189.23 73.66) (xy 190.5 73.66)
 		)
 		(stroke
 			(width 0)
@@ -5264,16 +5746,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 154.94) (xy 63.5 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0bd69fd-8490-4ca7-821b-0e393c9df2b7")
-	)
-	(wire
-		(pts
 			(xy 172.72 132.08) (xy 186.69 132.08)
 		)
 		(stroke
@@ -5291,6 +5763,16 @@
 			(type default)
 		)
 		(uuid "e147704f-3f6f-492c-8383-6af4fb2dd796")
+	)
+	(wire
+		(pts
+			(xy 71.12 154.94) (xy 72.39 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2ba052b-a62c-4037-88e1-03c3a4aae8d6")
 	)
 	(wire
 		(pts
@@ -5354,6 +5836,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 147.32) (xy 208.28 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9c1a5e5-d2a4-4f71-ac5d-8b974a15464a")
+	)
+	(wire
+		(pts
 			(xy 139.7 45.72) (xy 139.7 46.99)
 		)
 		(stroke
@@ -5394,7 +5886,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 152.4) (xy 63.5 152.4)
+			(xy 53.34 152.4) (xy 72.39 152.4)
 		)
 		(stroke
 			(width 0)
@@ -5524,16 +6016,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 152.4) (xy 63.5 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdcff8b1-fc00-41d9-8364-28ec12f695c9")
-	)
-	(wire
-		(pts
 			(xy 232.41 35.56) (xy 232.41 36.83)
 		)
 		(stroke
@@ -5552,15 +6034,15 @@
 		)
 		(uuid "fe2ed432-2847-4146-bf77-658150dcdf41")
 	)
-	(wire
-		(pts
-			(xy 100.33 124.46) (xy 111.76 124.46)
+	(label "BB5"
+		(at 218.44 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
 		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe42a492-309f-4139-a696-3a0d4e4c564a")
+		(uuid "086dcd1e-8c5c-497c-a118-90551c7e219a")
 	)
 	(label "FT.CS"
 		(at 173.99 63.5 0)
@@ -5622,6 +6104,16 @@
 		)
 		(uuid "379b763f-a250-4705-aa96-fc8a6432553a")
 	)
+	(label "BB1"
+		(at 198.12 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3c00def0-4fbe-48c8-965c-670b48f80c36")
+	)
 	(label "FT.MOSI"
 		(at 173.99 58.42 0)
 		(effects
@@ -5632,6 +6124,16 @@
 		)
 		(uuid "49b5786a-b624-4287-9d2b-a3172ef5d7be")
 	)
+	(label "BB0"
+		(at 193.04 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4d61f0fa-6de7-435b-890d-913e639e25b6")
+	)
 	(label "EEDATA"
 		(at 100.33 127 0)
 		(effects
@@ -5641,6 +6143,26 @@
 			(justify left bottom)
 		)
 		(uuid "52bf6cb1-88dc-4c7d-9102-c673fd18334c")
+	)
+	(label "BB4"
+		(at 213.36 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5b90145c-f576-4695-aabe-2e6ba2d0c397")
+	)
+	(label "BB3"
+		(at 208.28 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5d31121b-ab5a-4efc-a725-e26a5e4aeeff")
 	)
 	(label "BB2"
 		(at 173.99 129.54 0)
@@ -5661,6 +6183,16 @@
 			(justify left bottom)
 		)
 		(uuid "5f912acf-ad59-4618-ab56-1e591d975d0a")
+	)
+	(label "BB6"
+		(at 223.52 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6488e660-f0a5-4894-9750-e2b9c1ddcb15")
 	)
 	(label "JTAG.TDO"
 		(at 173.99 83.82 0)
@@ -5702,16 +6234,6 @@
 		)
 		(uuid "6903a249-4170-47b6-9869-4bec79f9dd02")
 	)
-	(label "UART{TX RX}"
-		(at 190.5 119.38 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6affe21e-fb30-42b1-917c-080f75579e2f")
-	)
 	(label "EECS"
 		(at 100.33 121.92 0)
 		(effects
@@ -5721,16 +6243,6 @@
 			(justify left bottom)
 		)
 		(uuid "7f37fcca-6e75-401c-8c9e-7a98a66de326")
-	)
-	(label "FT{SCLK MOSI MISO CS RESETN HOLD}"
-		(at 190.5 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8f66b1ae-4e0e-43de-91af-d5b50e58aacb")
 	)
 	(label "FT.SCLK"
 		(at 173.99 55.88 0)
@@ -5812,25 +6324,25 @@
 		)
 		(uuid "c8dc4f0a-8a21-4f1c-ae07-16279875d63a")
 	)
-	(label "JTAG{TCK TDI TDO TMS}"
-		(at 190.5 96.52 0)
+	(label "BB7"
+		(at 228.6 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "cce4df5a-90cb-4569-8ffb-bc1042041452")
+		(uuid "d341087a-a449-4705-8e99-9ff6f21b5d8e")
 	)
-	(label "BB[0..7]"
-		(at 190.5 144.78 0)
+	(label "BB2"
+		(at 203.2 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "d502bee0-7e50-4ef6-8fde-500c77b22689")
+		(uuid "daacadc7-61d8-4e32-8b4f-9d3431691986")
 	)
 	(label "EECLK"
 		(at 100.33 124.46 0)
@@ -5882,9 +6394,9 @@
 		)
 		(uuid "f46d86fe-b1bd-4184-b486-78b8e3a66aac")
 	)
-	(hierarchical_label "FTDI_SPI"
+	(hierarchical_label "FT{SCLK MOSI MISO CS RESETN HOLD}"
 		(shape bidirectional)
-		(at 237.49 73.66 0)
+		(at 190.5 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5893,9 +6405,9 @@
 		)
 		(uuid "6954c7ae-f7f7-45e7-986d-21d5d5be0800")
 	)
-	(hierarchical_label "FTDI_BB"
+	(hierarchical_label "BB[0..7]"
 		(shape bidirectional)
-		(at 237.49 144.78 0)
+		(at 232.41 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5904,9 +6416,9 @@
 		)
 		(uuid "6b0698fa-19ed-48a5-a6cb-70f72c1dd135")
 	)
-	(hierarchical_label "FTDI_UART"
+	(hierarchical_label "UART{TX RX}"
 		(shape bidirectional)
-		(at 237.49 119.38 0)
+		(at 190.5 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5915,9 +6427,9 @@
 		)
 		(uuid "a85e234a-cd5c-44f5-a807-673d3c3e6c28")
 	)
-	(hierarchical_label "FTDI_JTAG"
+	(hierarchical_label "JTAG{TCK TDI TDO TMS}"
 		(shape bidirectional)
-		(at 237.49 96.52 0)
+		(at 190.5 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6005,6 +6517,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 198.12 149.86 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00e2e1c8-f19d-4f9e-8172-0ce664746327")
+		(property "Reference" "TP8"
+			(at 196.596 155.702 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 200.66 154.4319 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 193.04 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 198.12 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "abbf2c46-0d8b-4475-acf2-d20e81226b0d")
+		)
+		(instances
+			(project "fpga_pcb"
+				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 80.01 40.64 0)
 		(unit 1)
@@ -6071,6 +6662,28 @@
 				)
 			)
 		)
+		(property "Digikey PN" "1276-1044-1-ND"
+			(at 80.01 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Cost" "0.044"
+			(at 80.01 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3132115a-6b4c-4279-a9dd-33272b9d4dcc")
 		)
@@ -6109,7 +6722,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "27pF"
+		(property "Value" "20pF"
 			(at 104.14 158.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6143,6 +6756,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 100.33 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "1276-1187-1-ND"
+			(at 100.33 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Cost" "0.10"
 			(at 100.33 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -6303,6 +6938,28 @@
 			)
 		)
 		(property "Description" "Hi Speed Quad Channel USB UART/FIFO, LQFP/QFN-64"
+			(at 142.24 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" ""
+			(at 142.24 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Cost" "10.0"
 			(at 142.24 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -6509,6 +7166,83 @@
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 99.06 121.92 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0943bd8a-baa0-4d05-9ee3-ba652c9e66d8")
+		(property "Reference" "TP4"
+			(at 92.964 121.92 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 95.758 119.38 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 99.06 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 99.06 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d52afbc7-7813-46b6-b788-3214afb3eb2a")
+		)
+		(instances
+			(project "fpga_pcb"
+				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -6737,6 +7471,28 @@
 				)
 			)
 		)
+		(property "Digikey PN" "1276-6854-1-ND"
+			(at 194.31 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Cost" "0.055"
+			(at 194.31 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bae822c8-79c4-4c5a-94b5-a588cea5a012")
 		)
@@ -6809,6 +7565,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 104.14 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "1276-1044-1-ND"
+			(at 104.14 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Cost" "0.044"
 			(at 104.14 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -6976,6 +7754,28 @@
 				)
 			)
 		)
+		(property "Digikey PN" "490-1014-1-ND"
+			(at 73.66 35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Cost" "0.1"
+			(at 73.66 35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d904e5a4-497f-44e7-b111-c6f42753839a")
 		)
@@ -6986,86 +7786,6 @@
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
 					(reference "FB2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 58.42 154.94 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3171ea2e-47b1-48d8-a07b-785434298e14")
-		(property "Reference" "R64"
-			(at 58.42 161.29 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2k"
-			(at 58.42 158.75 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 58.166 153.924 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 58.42 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6660ac8e-dd2f-4c3d-ba21-6384f23db54a")
-		)
-		(pin "2"
-			(uuid "f0ce0100-7d6e-4cda-adc7-58f88457b57e")
-		)
-		(instances
-			(project "fpga_pcb"
-				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
-					(reference "R64")
 					(unit 1)
 				)
 			)
@@ -7150,6 +7870,163 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 132.08 21.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f8cb283-3146-4bfa-813d-cf3e387456aa")
+		(property "Reference" "TP1"
+			(at 134.62 17.0179 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 134.62 19.5579 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 137.16 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 132.08 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a81b8d85-296a-418a-a75a-7f6a72175bbd")
+		)
+		(instances
+			(project "fpga_pcb"
+				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 92.71 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "490204c5-a693-4518-b68f-d03cc2d912e2")
+		(property "Reference" "#FLG01"
+			(at 92.71 32.385 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 92.71 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 92.71 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "07aeaf5a-c7bd-40d0-b47d-8e240c0a3607")
+		)
+		(instances
+			(project "fpga_pcb"
+				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 105.41 40.64 0)
 		(unit 1)
@@ -7206,6 +8083,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 105.41 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "1276-6854-1-ND"
+			(at 105.41 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Cost" "0.055"
 			(at 105.41 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -7310,6 +8209,164 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 208.28 149.86 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "56b55cd8-c358-4559-b13e-8bc9fe2bdc55")
+		(property "Reference" "TP10"
+			(at 206.756 155.702 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 210.82 154.4319 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 203.2 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 208.28 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "563df578-869e-4384-a80c-06cae1658c62")
+		)
+		(instances
+			(project "fpga_pcb"
+				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
+					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 101.6 59.69 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5b4eca15-fb68-4131-adee-001e33568696")
+		(property "Reference" "TP3"
+			(at 99.06 55.1179 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 99.06 57.6579 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 96.52 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 101.6 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b9c2ec71-4bfd-41fa-99f6-bfd58e8277f6")
+		)
+		(instances
+			(project "fpga_pcb"
+				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 26.67 162.56 0)
 		(unit 1)
@@ -7366,6 +8423,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 26.67 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "1276-6854-1-ND"
+			(at 26.67 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Cost" "0.055"
 			(at 26.67 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -7464,6 +8543,85 @@
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
 					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 218.44 149.86 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6218e14b-6a72-48ce-b5b5-f484a06586f1")
+		(property "Reference" "TP12"
+			(at 216.916 155.702 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 220.98 154.4319 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 213.36 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 218.44 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bdf3316f-8950-44d9-896e-440e294572f9")
+		)
+		(instances
+			(project "fpga_pcb"
+				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -7614,6 +8772,28 @@
 				)
 			)
 		)
+		(property "Digikey PN" "1276-6854-1-ND"
+			(at 118.11 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Cost" "0.055"
+			(at 118.11 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "62ca027c-44cd-4587-898d-5bd72dabd252")
 		)
@@ -7624,6 +8804,83 @@
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 99.06 124.46 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6b08db80-3d95-4e1a-9210-4d91ab79fc45")
+		(property "Reference" "TP5"
+			(at 92.964 124.46 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 95.758 121.92 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 99.06 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 99.06 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5449b8d4-890e-42bf-b974-2839598685e8")
+		)
+		(instances
+			(project "fpga_pcb"
+				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -7764,6 +9021,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 168.91 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "1276-6854-1-ND"
+			(at 168.91 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Cost" "0.055"
 			(at 168.91 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -7933,6 +9212,28 @@
 				)
 			)
 		)
+		(property "Digikey PN" "311-10KLDCT-ND"
+			(at 25.4 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Cost" "0.028"
+			(at 25.4 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e3a94e66-3bda-4c8c-a34f-0f66a3eceda3")
 		)
@@ -7943,6 +9244,85 @@
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
 					(reference "R67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 129.54 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "746f22dc-53b5-4834-9adb-58ac68a768dc")
+		(property "Reference" "TP2"
+			(at 132.08 29.7179 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 132.08 32.2579 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 134.62 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 129.54 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2c9e5b52-272b-4453-8560-4aedca523da1")
+		)
+		(instances
+			(project "fpga_pcb"
+				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -8093,6 +9473,28 @@
 				)
 			)
 		)
+		(property "Digikey PN" "93AA56BT-I/OTCT-ND"
+			(at 43.18 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Cost" "0.32"
+			(at 43.18 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e778db94-66cc-4350-860b-f5d3af3270c2")
 		)
@@ -8153,7 +9555,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 59.69 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -8186,6 +9588,28 @@
 				)
 			)
 		)
+		(property "Digikey PN" ""
+			(at 59.69 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Cost" ""
+			(at 59.69 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3df8917a-fa37-449c-b188-99fd140b7112")
 		)
@@ -8196,6 +9620,187 @@
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
 					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 58.42 154.94 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "81195857-a557-42d0-b2a4-431a45786e30")
+		(property "Reference" "R64"
+			(at 58.42 161.29 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 58.42 158.75 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 58.166 153.924 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 58.42 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "311-1.00KHRCT-ND"
+			(at 58.42 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Cost" "0.025"
+			(at 58.42 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "98d19ffb-895b-4605-bb0c-3ac2a5bb35a9")
+		)
+		(pin "1"
+			(uuid "7f5c7ef1-94d2-4d4a-9815-d88afff075cc")
+		)
+		(instances
+			(project "fpga_pcb"
+				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
+					(reference "R64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 228.6 149.86 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "85f01d52-401e-41c0-86e2-47ab4e5be972")
+		(property "Reference" "TP14"
+			(at 227.076 155.702 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 231.14 154.4319 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 223.52 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 228.6 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1944ea88-8915-4569-aaac-91677ffc9bae")
+		)
+		(instances
+			(project "fpga_pcb"
+				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
+					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -8424,6 +10029,28 @@
 				)
 			)
 		)
+		(property "Digikey PN" "1276-6854-1-ND"
+			(at 181.61 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Cost" "0.055"
+			(at 181.61 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "889738e5-513e-4e62-a577-de48d2394ff9")
 		)
@@ -8519,6 +10146,108 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
+		(at 67.31 154.94 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a42bfcdf-6a53-43cb-b42b-011a8d974012")
+		(property "Reference" "R72"
+			(at 67.31 161.29 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 67.31 158.75 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 67.564 155.956 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 67.31 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "311-1.00KHRCT-ND"
+			(at 67.31 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Cost" "0.025"
+			(at 67.31 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d8750a69-99c8-4000-9cc8-79f2581cdb98")
+		)
+		(pin "1"
+			(uuid "7591bd82-9e88-4c74-baa1-15a188194944")
+		)
+		(instances
+			(project "fpga_pcb"
+				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
+					(reference "R72")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
 		(at 72.39 144.78 0)
 		(mirror y)
 		(unit 1)
@@ -8575,6 +10304,28 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 72.39 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "311-10KLDCT-ND"
+			(at 72.39 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Cost" "0.028"
 			(at 72.39 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -8679,6 +10430,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 213.36 149.86 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ac10c00b-25ee-4fe6-9a18-4b8f7ec7988b")
+		(property "Reference" "TP11"
+			(at 211.836 155.702 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 215.9 154.4319 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 208.28 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 213.36 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5c89c174-d10c-4dca-8b5f-a9ddcf8e03c4")
+		)
+		(instances
+			(project "fpga_pcb"
+				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
+					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 90.17 157.48 0)
 		(mirror y)
@@ -8701,7 +10531,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "27pF"
+		(property "Value" "20pF"
 			(at 86.36 158.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8735,6 +10565,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 90.17 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "1276-1187-1-ND"
+			(at 90.17 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Cost" "0.10"
 			(at 90.17 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -8816,6 +10668,28 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 96.52 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "311-12.0KHRCT-ND"
+			(at 96.52 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Cost" "0.10"
 			(at 96.52 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -8908,6 +10782,28 @@
 				)
 			)
 		)
+		(property "Digikey PN" "1276-1044-1-ND"
+			(at 92.71 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Cost" "0.044"
+			(at 92.71 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "465b6f4a-b68c-45b0-8a54-d9349ea60a1d")
 		)
@@ -8918,6 +10814,83 @@
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 99.06 127 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b43f5198-5824-4f54-ba8d-d7ab47a52edb")
+		(property "Reference" "TP6"
+			(at 92.964 127 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 96.266 129.032 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 99.06 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 99.06 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "705578b2-6a81-4769-89f9-c97843e314d1")
+		)
+		(instances
+			(project "fpga_pcb"
+				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -9002,6 +10975,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 193.04 149.86 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bd2f3a98-6e52-4a94-ab38-275d334c21a6")
+		(property "Reference" "TP7"
+			(at 191.516 155.702 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 195.58 154.4319 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 187.96 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 193.04 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "36459786-b9c1-4be8-957b-9673b31bc5cf")
+		)
+		(instances
+			(project "fpga_pcb"
+				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 102.87 101.6 0)
 		(mirror y)
@@ -9059,6 +11111,28 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 102.87 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "311-1.00KHRCT-ND"
+			(at 102.87 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Cost" "0.025"
 			(at 102.87 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -9229,6 +11303,28 @@
 				)
 			)
 		)
+		(property "Digikey PN" "1276-6854-1-ND"
+			(at 245.11 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Cost" "0.055"
+			(at 245.11 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a8c27c57-32f7-4399-8b7d-80c8c12e89b9")
 		)
@@ -9353,7 +11449,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_ECS_CSM3X-2Pin_7.6x4.1mm"
 			(at 95.25 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -9376,6 +11472,28 @@
 			)
 		)
 		(property "Description" "Two pin crystal, small symbol"
+			(at 95.25 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "XC1787CT-ND"
+			(at 95.25 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Cost" "0.37"
 			(at 95.25 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -9433,7 +11551,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_Mini-B_Wuerth_65100516121_Horizontal"
 			(at 66.04 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -9466,6 +11584,28 @@
 				)
 			)
 		)
+		(property "Digikey PN" "151-1206-1-ND"
+			(at 62.23 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Cost" "0.61"
+			(at 62.23 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c463383a-40d6-4031-98ce-ebfb64fb4eaa")
 		)
@@ -9488,6 +11628,85 @@
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 203.2 149.86 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d508df66-3881-437c-881b-fd57d31cb4d7")
+		(property "Reference" "TP9"
+			(at 201.676 155.702 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 205.74 154.4319 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 198.12 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 203.2 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c633ba40-2b91-4d9c-b9f1-4170c19a6893")
+		)
+		(instances
+			(project "fpga_pcb"
+				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -9558,6 +11777,28 @@
 				)
 			)
 		)
+		(property "Digikey PN" "490-1014-1-ND"
+			(at 73.66 22.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Cost" "0.1"
+			(at 73.66 22.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "612bde69-32b3-48aa-a9e3-e877ba652862")
 		)
@@ -9568,6 +11809,163 @@
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
 					(reference "FB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 105.41 21.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dcd354ee-32ca-4c24-a4e8-476a2a1e6abf")
+		(property "Reference" "#FLG02"
+			(at 105.41 19.685 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 105.41 16.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 105.41 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "304ca14f-78f0-4839-8249-bb5c52a72d42")
+		)
+		(instances
+			(project "fpga_pcb"
+				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 223.52 149.86 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "de0953d5-bfed-46af-af80-889f22e8e3a6")
+		(property "Reference" "TP13"
+			(at 221.996 155.702 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 226.06 154.4319 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 218.44 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 223.52 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4cb37000-e063-4a3f-b828-84e4e2fd06c9")
+		)
+		(instances
+			(project "fpga_pcb"
+				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
+					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -9630,6 +12028,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 219.71 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "1276-6854-1-ND"
+			(at 219.71 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Cost" "0.055"
 			(at 219.71 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -9800,6 +12220,28 @@
 				)
 			)
 		)
+		(property "Digikey PN" "1276-6854-1-ND"
+			(at 207.01 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Cost" "0.055"
+			(at 207.01 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "98ab9fde-b704-4c36-828b-15499f6ec625")
 		)
@@ -9883,6 +12325,28 @@
 				)
 			)
 		)
+		(property "Digikey PN" "311-10KLDCT-ND"
+			(at 64.77 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Cost" "0.028"
+			(at 64.77 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f5513d6b-256c-43e6-a77d-9a074e0162b2")
 		)
@@ -9955,6 +12419,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 232.41 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "1276-6854-1-ND"
+			(at 232.41 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Cost" "0.055"
 			(at 232.41 31.75 0)
 			(hide yes)
 			(show_name no)

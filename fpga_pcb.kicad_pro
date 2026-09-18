@@ -429,7 +429,7 @@
         "uuid": "0e44f7b0-1a4a-4ef8-a122-38b9269be26a"
       }
     ],
-    "used_designators": "U6-7,#PWR52-68,C35-59",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -450,7 +450,11 @@
       "USB"
     ],
     [
-      "943ce1ef-8f36-41d4-9a3e-796256576acd",
+      "347f4b36-1e4a-4811-b10b-2a37aa92cf3c",
+      "IO"
+    ],
+    [
+      "1de2bfe4-d06c-418a-8aa4-20489bb03fc3",
       "ADC"
     ]
   ],

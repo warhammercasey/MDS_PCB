@@ -502,7 +502,7 @@
         "uuid": "0e44f7b0-1a4a-4ef8-a122-38b9269be26a"
       }
     ],
-    "used_designators": "J12-14,#FLG1-2,R64,R72-86,FB3,TP1-33,#PWR134-157,U9-10,C66-71,JP2",
+    "used_designators": "J12-14,#FLG1-4,R64,R72-86,FB3,TP1-44,#PWR134-157,U9-10,C66-71,JP2",
     "variants": []
   },
   "sheets": [

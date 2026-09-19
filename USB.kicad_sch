@@ -4,6 +4,10 @@
 	(generator_version "10.0")
 	(uuid "0c552bb2-8d64-420f-9123-0e5d8d707816")
 	(paper "A4")
+	(title_block
+		(title "USB")
+		(date "2026-09-19")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers

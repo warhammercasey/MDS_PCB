@@ -4,6 +4,10 @@
 	(generator_version "10.0")
 	(uuid "1185be1f-e579-43c1-a495-76d4df52e036")
 	(paper "A4")
+	(title_block
+		(title "ADC")
+		(date "2026-09-19")
+	)
 	(lib_symbols
 		(symbol "Analog_ADC:ADC1283"
 			(exclude_from_sim no)
@@ -989,7 +993,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "ADC has 8 channels with a total max fs of 200kHz.\nAntialiasing filters have a cutoff frequency of ~12.5kHz \n	(Nyquist freq of 200kHz/8)"
+	(text "ADC has 8 channels with a total max fs of 200kHz.\nAntialiasing filters have a cutoff frequency of ~12.5kHz \n	(200kHz/8/2)"
 		(exclude_from_sim no)
 		(at 91.186 38.608 0)
 		(effects

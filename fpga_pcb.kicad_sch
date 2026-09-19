@@ -4,6 +4,10 @@
 	(generator_version "10.0")
 	(uuid "0e44f7b0-1a4a-4ef8-a122-38b9269be26a")
 	(paper "A4")
+	(title_block
+		(title "FPGA PCB Top")
+		(date "2026-09-19")
+	)
 	(lib_symbols)
 	(junction
 		(at 72.39 104.14)
@@ -172,6 +176,16 @@
 			(type default)
 		)
 		(uuid "ed9a15e5-13b1-4d7a-b5d3-ffbbe77df3de")
+	)
+	(bus
+		(pts
+			(xy 154.94 105.41) (xy 237.49 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef351a56-d9d8-464d-b5be-d85f6b9f96a2")
 	)
 	(bus
 		(pts
@@ -574,6 +588,16 @@
 		(pin "UART{TX RX}" bidirectional
 			(at 237.49 120.65 180)
 			(uuid "fbe53b33-26f0-4d75-8451-7769eaa7b729")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO[0..7]" bidirectional
+			(at 237.49 105.41 180)
+			(uuid "eda8788c-fc0f-418e-ba4b-c99dc93806d5")
 			(effects
 				(font
 					(size 1.27 1.27)

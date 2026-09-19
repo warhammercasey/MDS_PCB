@@ -4,6 +4,10 @@
 	(generator_version "10.0")
 	(uuid "7b87e412-0e8d-4c91-a046-1d5c111b4ed9")
 	(paper "A4")
+	(title_block
+		(title "FPGA")
+		(date "2026-09-19")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers
@@ -9494,16 +9498,6 @@
 		)
 		(uuid "0ae7fae3-b3a4-4a86-b55a-c80f8c98c811")
 	)
-	(bus
-		(pts
-			(xy 266.7 44.45) (xy 267.97 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c4b1600-9ed3-4301-a51f-d19230e94be8")
-	)
 	(wire
 		(pts
 			(xy 124.46 158.75) (xy 148.59 158.75)
@@ -11794,6 +11788,16 @@
 		)
 		(uuid "a651a894-b825-467b-a404-ff3709931ea1")
 	)
+	(bus
+		(pts
+			(xy 281.94 48.26) (xy 281.94 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6dadf8d-ac11-4271-9cc6-a6af292b1d73")
+	)
 	(wire
 		(pts
 			(xy 21.59 27.94) (xy 20.32 27.94)
@@ -11903,6 +11907,16 @@
 			(type default)
 		)
 		(uuid "afaafc5c-00e9-478d-a1be-644cfe7a62a6")
+	)
+	(bus
+		(pts
+			(xy 281.94 45.72) (xy 266.7 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b031878b-4ba2-4b81-9d2a-f0701477dce3")
 	)
 	(bus
 		(pts
@@ -12036,7 +12050,7 @@
 	)
 	(bus
 		(pts
-			(xy 266.7 36.83) (xy 266.7 44.45)
+			(xy 266.7 36.83) (xy 266.7 45.72)
 		)
 		(stroke
 			(width 0)
@@ -12356,7 +12370,7 @@
 	)
 	(bus
 		(pts
-			(xy 267.97 90.17) (xy 266.7 90.17)
+			(xy 265.43 90.17) (xy 266.7 90.17)
 		)
 		(stroke
 			(width 0)
@@ -13978,23 +13992,23 @@
 	)
 	(hierarchical_label "ADC_SPI{CS SCLK DIN DOUT}"
 		(shape bidirectional)
-		(at 267.97 44.45 0)
+		(at 281.94 48.26 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "5d962f7e-adb3-4f23-ad47-14a511eec90b")
 	)
 	(hierarchical_label "RMII{TXD[0..1] TXEN RXD[0..1] RXER CRS_DV MDIO MDC RSTN INT CLK}"
 		(shape bidirectional)
-		(at 267.97 90.17 0)
+		(at 265.43 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "5e530023-c673-48cf-9d43-c687639516db")
 	)

@@ -6,26 +6,26 @@
 	(paper "A4")
 	(lib_symbols)
 	(junction
-		(at 72.39 92.71)
+		(at 72.39 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "876d7bc3-4c14-4411-acdf-661249f2c360")
+		(uuid "4e577ae4-6bef-4a25-a253-d139cf483f2c")
 	)
 	(junction
-		(at 69.85 95.25)
+		(at 69.85 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d5df007c-4123-4861-a86b-ef3b1a99ecf7")
+		(uuid "9efd9ed5-87d5-4655-b152-bee798ac9290")
 	)
 	(junction
-		(at 74.93 90.17)
+		(at 74.93 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "fe89181c-96b4-4772-8947-09c2f00f08f4")
+		(uuid "e2e7425c-d610-4a36-92b7-698c54119922")
 	)
 	(bus
 		(pts
-			(xy 60.96 92.71) (xy 72.39 92.71)
+			(xy 60.96 104.14) (xy 72.39 104.14)
 		)
 		(stroke
 			(width 0)
@@ -35,7 +35,7 @@
 	)
 	(bus
 		(pts
-			(xy 60.96 97.79) (xy 77.47 97.79)
+			(xy 60.96 109.22) (xy 77.47 109.22)
 		)
 		(stroke
 			(width 0)
@@ -45,7 +45,7 @@
 	)
 	(bus
 		(pts
-			(xy 74.93 115.57) (xy 208.28 115.57)
+			(xy 74.93 115.57) (xy 237.49 115.57)
 		)
 		(stroke
 			(width 0)
@@ -55,57 +55,17 @@
 	)
 	(bus
 		(pts
-			(xy 69.85 95.25) (xy 77.47 95.25)
+			(xy 69.85 106.68) (xy 69.85 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "48de080d-5dbe-4eac-a1a9-562a8dd7d39b")
+		(uuid "3ea5201d-4073-46c5-a2a8-c49109b263f6")
 	)
 	(bus
 		(pts
-			(xy 74.93 90.17) (xy 77.47 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4fde8bbf-9428-4737-a0f4-2e5889fa649a")
-	)
-	(bus
-		(pts
-			(xy 72.39 92.71) (xy 72.39 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65275a10-8bb4-43be-9e31-8f2637000f03")
-	)
-	(bus
-		(pts
-			(xy 72.39 92.71) (xy 77.47 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c612664-573b-46bc-9009-c04df0465752")
-	)
-	(bus
-		(pts
-			(xy 69.85 95.25) (xy 69.85 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72a899d9-4ff2-4165-a9aa-38640ad74dd3")
-	)
-	(bus
-		(pts
-			(xy 72.39 118.11) (xy 208.28 118.11)
+			(xy 72.39 118.11) (xy 237.49 118.11)
 		)
 		(stroke
 			(width 0)
@@ -115,7 +75,27 @@
 	)
 	(bus
 		(pts
-			(xy 69.85 120.65) (xy 208.28 120.65)
+			(xy 72.39 118.11) (xy 72.39 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c7e9a21-a861-4ffb-a846-b77f0701c140")
+	)
+	(bus
+		(pts
+			(xy 69.85 106.68) (xy 77.47 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9720e8e0-2612-4bfd-85a6-aafabab17e0c")
+	)
+	(bus
+		(pts
+			(xy 69.85 120.65) (xy 237.49 120.65)
 		)
 		(stroke
 			(width 0)
@@ -125,7 +105,47 @@
 	)
 	(bus
 		(pts
-			(xy 60.96 90.17) (xy 74.93 90.17)
+			(xy 165.1 74.93) (xy 170.18 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af9ed63b-7655-45ca-a73c-c798edc287ce")
+	)
+	(bus
+		(pts
+			(xy 74.93 101.6) (xy 74.93 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "badbd0f9-cd8e-43cb-bc35-2e0570ec33c6")
+	)
+	(bus
+		(pts
+			(xy 74.93 101.6) (xy 77.47 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c197ce4e-9a0c-4b36-a9e4-ab3ae3f7f5db")
+	)
+	(bus
+		(pts
+			(xy 72.39 104.14) (xy 77.47 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccad2cc6-6bf1-421e-a5fb-e8d9c0ad1f16")
+	)
+	(bus
+		(pts
+			(xy 60.96 101.6) (xy 74.93 101.6)
 		)
 		(stroke
 			(width 0)
@@ -135,27 +155,17 @@
 	)
 	(bus
 		(pts
-			(xy 132.08 101.6) (xy 208.28 101.6)
+			(xy 165.1 90.17) (xy 165.1 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d41dc4e6-ef1a-4e49-b700-fe51cd705150")
+		(uuid "e4dd7094-c498-491d-9dce-d0fd29e77c0b")
 	)
 	(bus
 		(pts
-			(xy 74.93 90.17) (xy 74.93 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5043547-7e9c-4d19-bf23-a953a91a6ce0")
-	)
-	(bus
-		(pts
-			(xy 185.42 93.98) (xy 208.28 93.98)
+			(xy 214.63 93.98) (xy 237.49 93.98)
 		)
 		(stroke
 			(width 0)
@@ -165,7 +175,17 @@
 	)
 	(bus
 		(pts
-			(xy 132.08 93.98) (xy 140.97 93.98)
+			(xy 154.94 90.17) (xy 165.1 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3bb84b9-7dd1-42ab-9500-813b5d360dd7")
+	)
+	(bus
+		(pts
+			(xy 154.94 93.98) (xy 170.18 93.98)
 		)
 		(stroke
 			(width 0)
@@ -175,13 +195,23 @@
 	)
 	(bus
 		(pts
-			(xy 60.96 95.25) (xy 69.85 95.25)
+			(xy 60.96 106.68) (xy 69.85 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f90a5a68-6bbd-435b-bcad-67fb9a772c66")
+	)
+	(bus
+		(pts
+			(xy 154.94 101.6) (xy 237.49 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffb5d8a1-1e3c-4148-98f5-2753319fcaa0")
 	)
 	(sheet
 		(at 21.59 86.36)
@@ -222,7 +252,7 @@
 			)
 		)
 		(pin "BB[0..7]" bidirectional
-			(at 60.96 97.79 0)
+			(at 60.96 109.22 0)
 			(uuid "e5a0b042-7408-4821-a856-ee48c2f93394")
 			(effects
 				(font
@@ -232,7 +262,7 @@
 			)
 		)
 		(pin "FT{SCLK MOSI MISO CS RESETN HOLD}" bidirectional
-			(at 60.96 90.17 0)
+			(at 60.96 101.6 0)
 			(uuid "30bbff38-1222-42bd-abad-ca8de162c176")
 			(effects
 				(font
@@ -242,7 +272,7 @@
 			)
 		)
 		(pin "JTAG{TCK TDI TDO TMS}" bidirectional
-			(at 60.96 92.71 0)
+			(at 60.96 104.14 0)
 			(uuid "13e52d76-12f2-40d5-ac69-ff1e7bfa01f2")
 			(effects
 				(font
@@ -252,7 +282,7 @@
 			)
 		)
 		(pin "UART{TX RX}" bidirectional
-			(at 60.96 95.25 0)
+			(at 60.96 106.68 0)
 			(uuid "005d0456-0484-476c-ab17-0f65ea893d84")
 			(effects
 				(font
@@ -271,7 +301,7 @@
 	)
 	(sheet
 		(at 77.47 86.36)
-		(size 54.61 25.4)
+		(size 77.47 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -308,7 +338,7 @@
 			)
 		)
 		(pin "ADC_SPI{CS SCLK DIN DOUT}" bidirectional
-			(at 132.08 93.98 0)
+			(at 154.94 93.98 0)
 			(uuid "4a19d3d8-3b7e-458b-9ceb-f85548934642")
 			(effects
 				(font
@@ -318,7 +348,7 @@
 			)
 		)
 		(pin "BB[0..7]" bidirectional
-			(at 77.47 97.79 180)
+			(at 77.47 109.22 180)
 			(uuid "dc2809d9-5155-46d8-9e15-19caa7c38953")
 			(effects
 				(font
@@ -328,7 +358,7 @@
 			)
 		)
 		(pin "FT{SCLK MOSI MISO CS RESETN HOLD}" bidirectional
-			(at 77.47 90.17 180)
+			(at 77.47 101.6 180)
 			(uuid "38bcae3e-acff-4759-b58e-266abfb3d9b7")
 			(effects
 				(font
@@ -338,7 +368,7 @@
 			)
 		)
 		(pin "I2S{SCK WS DATA[0..3]}" bidirectional
-			(at 132.08 101.6 0)
+			(at 154.94 101.6 0)
 			(uuid "60a0d6b5-7d91-4667-9ecb-264b89b81de5")
 			(effects
 				(font
@@ -348,7 +378,7 @@
 			)
 		)
 		(pin "JTAG{TCK TDI TDO TMS}" bidirectional
-			(at 77.47 92.71 180)
+			(at 77.47 104.14 180)
 			(uuid "a140b01f-7a32-4a24-b450-57385c98d802")
 			(effects
 				(font
@@ -358,13 +388,35 @@
 			)
 		)
 		(pin "UART{TX RX}" bidirectional
-			(at 77.47 95.25 180)
+			(at 77.47 106.68 180)
 			(uuid "1cade043-e99a-47da-a4f2-11fdb1486ff9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "GPIO[0..7]" bidirectional
+			(at 154.94 105.41 0)
+			(uuid "ce083ff6-8bf4-4069-adc1-8ca097f064a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RMII{TXD[0..1] TXEN RXD[0..1] RXER CRS_DV MDIO MDC RSTN INT CLK}"
+			bidirectional
+			(at 154.94 90.17 0
+			)
+			(uuid "3de4c185-60b2-4729-bbc7-fc557c02d7b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -376,7 +428,7 @@
 		)
 	)
 	(sheet
-		(at 140.97 90.17)
+		(at 170.18 90.17)
 		(size 44.45 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -392,7 +444,7 @@
 		)
 		(uuid "1de2bfe4-d06c-418a-8aa4-20489bb03fc3")
 		(property "Sheetname" "ADC"
-			(at 140.97 89.4584 0)
+			(at 170.18 89.4584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -403,7 +455,7 @@
 			)
 		)
 		(property "Sheetfile" "ADC.kicad_sch"
-			(at 140.97 98.3746 0)
+			(at 170.18 98.3746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -414,7 +466,7 @@
 			)
 		)
 		(pin "ADC[0..7]" input
-			(at 185.42 93.98 0)
+			(at 214.63 93.98 0)
 			(uuid "9cab9fdf-a1f8-43e7-8613-f25e90fbc518")
 			(effects
 				(font
@@ -424,7 +476,7 @@
 			)
 		)
 		(pin "ADC_SPI{CS SCLK DIN DOUT}" bidirectional
-			(at 140.97 93.98 180)
+			(at 170.18 93.98 180)
 			(uuid "02698e13-d39e-43aa-8e4b-ffedeed60ad3")
 			(effects
 				(font
@@ -442,8 +494,8 @@
 		)
 	)
 	(sheet
-		(at 208.28 88.9)
-		(size 58.42 38.1)
+		(at 237.49 88.9)
+		(size 43.18 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -458,7 +510,7 @@
 		)
 		(uuid "347f4b36-1e4a-4811-b10b-2a37aa92cf3c")
 		(property "Sheetname" "IO"
-			(at 208.28 88.1884 0)
+			(at 237.49 88.1884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -469,7 +521,7 @@
 			)
 		)
 		(property "Sheetfile" "IO.kicad_sch"
-			(at 208.28 127.5846 0)
+			(at 237.49 127.5846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -480,7 +532,7 @@
 			)
 		)
 		(pin "ADC[0..7]" output
-			(at 208.28 93.98 180)
+			(at 237.49 93.98 180)
 			(uuid "25cc417d-039c-4d5d-8c6d-f6fe301da011")
 			(effects
 				(font
@@ -490,7 +542,7 @@
 			)
 		)
 		(pin "I2S{SCK DATA[0..3] WS}" bidirectional
-			(at 208.28 101.6 180)
+			(at 237.49 101.6 180)
 			(uuid "dec9334a-9086-4eaa-94a6-87965ad81cf9")
 			(effects
 				(font
@@ -500,7 +552,7 @@
 			)
 		)
 		(pin "FT{SCLK MOSI MISO CS RESETN HOLD}" bidirectional
-			(at 208.28 115.57 180)
+			(at 237.49 115.57 180)
 			(uuid "e841feb9-0f42-43dc-8919-95aab73775a1")
 			(effects
 				(font
@@ -510,7 +562,7 @@
 			)
 		)
 		(pin "JTAG{TCK TDI TDO TMS}" bidirectional
-			(at 208.28 118.11 180)
+			(at 237.49 118.11 180)
 			(uuid "bbf957f0-7908-4048-85a8-4e9d3549e1d1")
 			(effects
 				(font
@@ -520,7 +572,7 @@
 			)
 		)
 		(pin "UART{TX RX}" bidirectional
-			(at 208.28 120.65 180)
+			(at 237.49 120.65 180)
 			(uuid "fbe53b33-26f0-4d75-8451-7769eaa7b729")
 			(effects
 				(font
@@ -533,6 +585,64 @@
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a"
 					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 170.18 63.5)
+		(size 73.66 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "74a36683-6dc1-4590-bef2-6980e96cf9b9")
+		(property "Sheetname" "Ethernet"
+			(at 170.18 62.7884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Ethernet.kicad_sch"
+			(at 170.18 80.5946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RMII{TXD[0..1] TXEN RXD[0..1] RXER CRS_DV MDIO MDC RSTN INT CLK}"
+			bidirectional
+			(at 170.18 74.93 180
+			)
+			(uuid "bf8c29f3-e886-4e3e-95b3-8309f377815f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "fpga_pcb"
+				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a"
+					(page "7")
 				)
 			)
 		)

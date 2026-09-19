@@ -6454,7 +6454,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "001e3738-1440-44ca-8a32-35253cd02437")
-		(property "Reference" "#PWR0109"
+		(property "Reference" "#PWR061"
 			(at 43.18 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -6514,7 +6514,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
-					(reference "#PWR0109")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -6531,7 +6531,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00e2e1c8-f19d-4f9e-8172-0ce664746327")
-		(property "Reference" "TP8"
+		(property "Reference" "TP21"
 			(at 196.596 155.702 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6593,7 +6593,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
-					(reference "TP8")
+					(reference "TP21")
 					(unit 1)
 				)
 			)
@@ -6611,7 +6611,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0126f844-47a0-48c0-a521-6ea9a4a5b75b")
-		(property "Reference" "C10"
+		(property "Reference" "C33"
 			(at 83.82 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6697,7 +6697,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
-					(reference "C10")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -6715,7 +6715,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "021048b8-4e95-4f39-bc7e-6ec495bc6e31")
-		(property "Reference" "C8"
+		(property "Reference" "C36"
 			(at 104.14 156.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6801,7 +6801,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
-					(reference "C8")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -6819,7 +6819,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "068336fc-ce26-49cb-9242-6771bf36aa5f")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR070"
 			(at 104.14 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -6879,7 +6879,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
-					(reference "#PWR024")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -6897,7 +6897,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0841dc1a-2b4c-4f6d-bf48-ebda553fcb3b")
-		(property "Reference" "U3"
+		(property "Reference" "U7"
 			(at 157.0833 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7169,7 +7169,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
-					(reference "U3")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -7186,7 +7186,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0943bd8a-baa0-4d05-9ee3-ba652c9e66d8")
-		(property "Reference" "TP4"
+		(property "Reference" "TP14"
 			(at 92.964 121.92 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7246,7 +7246,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
-					(reference "TP4")
+					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -7264,7 +7264,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0bf832eb-14d7-4962-a21c-affef496082b")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR057"
 			(at 25.4 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -7324,7 +7324,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
-					(reference "#PWR0113")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -7342,7 +7342,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d20a0df-e7e6-4d88-9d25-beacea647dfc")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR074"
 			(at 149.86 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -7402,7 +7402,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
-					(reference "#PWR033")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -7420,7 +7420,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1838227e-e360-4d4f-abc2-15d7f40e5796")
-		(property "Reference" "C55"
+		(property "Reference" "C42"
 			(at 198.12 30.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7506,7 +7506,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
-					(reference "C55")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -7524,7 +7524,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26451224-746e-4aa5-8fd9-aa31cf1224b6")
-		(property "Reference" "C7"
+		(property "Reference" "C37"
 			(at 107.95 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7610,7 +7610,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
-					(reference "C7")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -7628,7 +7628,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28ff20d8-96b2-4e2f-94f5-d1f9bc82db84")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR062"
 			(at 62.23 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -7688,7 +7688,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
-					(reference "#PWR029")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -7807,7 +7807,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34c02f32-f63b-49aa-87fc-b059e285c081")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR073"
 			(at 139.7 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -7867,7 +7867,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
-					(reference "#PWR026")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -7885,7 +7885,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f8cb283-3146-4bfa-813d-cf3e387456aa")
-		(property "Reference" "TP1"
+		(property "Reference" "TP19"
 			(at 134.62 17.0179 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7946,7 +7946,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
-					(reference "TP1")
+					(reference "TP19")
 					(unit 1)
 				)
 			)
@@ -8042,7 +8042,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d08baab-804b-4b09-9b1f-3fc30274c805")
-		(property "Reference" "C12"
+		(property "Reference" "C38"
 			(at 109.22 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8128,7 +8128,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
-					(reference "C12")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -8146,7 +8146,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53f62a1c-da52-43e0-965e-f334a90f6a08")
-		(property "Reference" "#PWR0114"
+		(property "Reference" "#PWR064"
 			(at 64.77 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -8206,7 +8206,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
-					(reference "#PWR0114")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -8223,7 +8223,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "56b55cd8-c358-4559-b13e-8bc9fe2bdc55")
-		(property "Reference" "TP10"
+		(property "Reference" "TP23"
 			(at 206.756 155.702 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8285,7 +8285,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
-					(reference "TP10")
+					(reference "TP23")
 					(unit 1)
 				)
 			)
@@ -8303,7 +8303,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5b4eca15-fb68-4131-adee-001e33568696")
-		(property "Reference" "TP3"
+		(property "Reference" "TP17"
 			(at 99.06 55.1179 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8364,7 +8364,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
-					(reference "TP3")
+					(reference "TP17")
 					(unit 1)
 				)
 			)
@@ -8382,7 +8382,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5bc44652-8cfb-440c-8a9d-d3eb89259356")
-		(property "Reference" "C49"
+		(property "Reference" "C32"
 			(at 30.48 161.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8468,7 +8468,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
-					(reference "C49")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -8486,7 +8486,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c98d07c-2934-4849-ba47-faa80cb60c45")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR078"
 			(at 226.06 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -8546,7 +8546,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
-					(reference "#PWR067")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -8563,7 +8563,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6218e14b-6a72-48ce-b5b5-f484a06586f1")
-		(property "Reference" "TP12"
+		(property "Reference" "TP25"
 			(at 216.916 155.702 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8625,7 +8625,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
-					(reference "TP12")
+					(reference "TP25")
 					(unit 1)
 				)
 			)
@@ -8643,7 +8643,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62add953-cb3d-406a-9bb2-5435a9c71cd7")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR068"
 			(at 96.52 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -8703,7 +8703,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
-					(reference "#PWR030")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -8721,7 +8721,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "633f6380-787c-46b0-98d6-e048932a1b7d")
-		(property "Reference" "C13"
+		(property "Reference" "C39"
 			(at 121.92 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8807,7 +8807,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
-					(reference "C13")
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -8824,7 +8824,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6b08db80-3d95-4e1a-9210-4d91ab79fc45")
-		(property "Reference" "TP5"
+		(property "Reference" "TP15"
 			(at 92.964 124.46 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8884,7 +8884,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
-					(reference "TP5")
+					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -8902,7 +8902,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c3848e4-cd28-46ea-9cfd-48f7d19e7eb2")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR063"
 			(at 63.5 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -8962,7 +8962,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
-					(reference "#PWR034")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -8980,7 +8980,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6dbf3504-bd82-4a35-a267-a3e99b222c56")
-		(property "Reference" "C53"
+		(property "Reference" "C40"
 			(at 172.72 30.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9066,7 +9066,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
-					(reference "C53")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -9084,7 +9084,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f41a359-26a3-4b06-9494-8a370ee1a4b6")
-		(property "Reference" "#PWR0112"
+		(property "Reference" "#PWR059"
 			(at 26.67 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -9144,7 +9144,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
-					(reference "#PWR0112")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -9161,7 +9161,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "70606ae8-bc7d-4781-ae52-e17941250768")
-		(property "Reference" "R67"
+		(property "Reference" "R42"
 			(at 22.86 143.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9247,7 +9247,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
-					(reference "R67")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -9265,7 +9265,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "746f22dc-53b5-4834-9adb-58ac68a768dc")
-		(property "Reference" "TP2"
+		(property "Reference" "TP18"
 			(at 132.08 29.7179 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9326,7 +9326,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
-					(reference "TP2")
+					(reference "TP18")
 					(unit 1)
 				)
 			)
@@ -9344,7 +9344,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7487c6ff-ad8c-4707-86ca-8c123b5a2f21")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR069"
 			(at 102.87 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -9404,7 +9404,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
-					(reference "#PWR031")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -9422,7 +9422,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "769c3d60-7757-4714-8173-419e82a7b6cc")
-		(property "Reference" "U8"
+		(property "Reference" "U6"
 			(at 45.3233 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9520,7 +9520,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
-					(reference "U8")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -9537,7 +9537,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "80bef8b6-ec42-41d9-8c8f-11b096c2922f")
-		(property "Reference" "JP1"
+		(property "Reference" "JP2"
 			(at 57.15 96.5199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9623,7 +9623,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
-					(reference "JP1")
+					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -9641,7 +9641,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "81195857-a557-42d0-b2a4-431a45786e30")
-		(property "Reference" "R64"
+		(property "Reference" "R43"
 			(at 58.42 161.29 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9725,7 +9725,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
-					(reference "R64")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -9742,7 +9742,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "85f01d52-401e-41c0-86e2-47ab4e5be972")
-		(property "Reference" "TP14"
+		(property "Reference" "TP27"
 			(at 227.076 155.702 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9804,7 +9804,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
-					(reference "TP14")
+					(reference "TP27")
 					(unit 1)
 				)
 			)
@@ -9822,7 +9822,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86d50e5b-349c-4419-a57c-95670a0dc8c8")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR067"
 			(at 95.25 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -9882,7 +9882,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
-					(reference "#PWR032")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -9900,7 +9900,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92380fd6-2546-49cd-a2fa-f0821fcb0a68")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR077"
 			(at 181.61 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -9960,7 +9960,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
-					(reference "#PWR066")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -9978,7 +9978,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98ef1e69-42b6-470b-9f0b-103a69c438d0")
-		(property "Reference" "C54"
+		(property "Reference" "C41"
 			(at 185.42 30.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10064,7 +10064,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
-					(reference "C54")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -10082,7 +10082,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99152450-3763-4ca9-8317-b44a862b79eb")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR066"
 			(at 80.01 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -10142,7 +10142,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
-					(reference "#PWR035")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -10160,7 +10160,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a42bfcdf-6a53-43cb-b42b-011a8d974012")
-		(property "Reference" "R72"
+		(property "Reference" "R45"
 			(at 67.31 161.29 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10244,7 +10244,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
-					(reference "R72")
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -10263,7 +10263,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a578e1c2-af56-41a2-b7a4-b13f3d7c9443")
-		(property "Reference" "R66"
+		(property "Reference" "R46"
 			(at 74.93 143.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10349,7 +10349,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
-					(reference "R66")
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -10367,7 +10367,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5f11fab-6fbe-4aee-90f7-a32e77ecd22d")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR071"
 			(at 104.14 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -10427,7 +10427,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
-					(reference "#PWR027")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -10444,7 +10444,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ac10c00b-25ee-4fe6-9a18-4b8f7ec7988b")
-		(property "Reference" "TP11"
+		(property "Reference" "TP24"
 			(at 211.836 155.702 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10506,7 +10506,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
-					(reference "TP11")
+					(reference "TP24")
 					(unit 1)
 				)
 			)
@@ -10524,7 +10524,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aea6bb94-9765-430a-bdb5-28de538c3c47")
-		(property "Reference" "C9"
+		(property "Reference" "C34"
 			(at 86.36 156.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10610,7 +10610,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
-					(reference "C9")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -10627,7 +10627,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b38f00e1-3adc-44b1-bde0-2d59daffb3b6")
-		(property "Reference" "R13"
+		(property "Reference" "R47"
 			(at 93.98 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10713,7 +10713,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
-					(reference "R13")
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -10731,7 +10731,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3c01a2a-fd73-4827-900d-c99f1e72d8b0")
-		(property "Reference" "C11"
+		(property "Reference" "C35"
 			(at 96.52 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10817,7 +10817,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
-					(reference "C11")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -10834,7 +10834,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b43f5198-5824-4f54-ba8d-d7ab47a52edb")
-		(property "Reference" "TP6"
+		(property "Reference" "TP16"
 			(at 92.964 127 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10894,7 +10894,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
-					(reference "TP6")
+					(reference "TP16")
 					(unit 1)
 				)
 			)
@@ -10912,7 +10912,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "baea84cb-4f44-47ba-b453-b58e5d1c2b86")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR060"
 			(at 43.18 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -10972,7 +10972,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
-					(reference "#PWR0110")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -10989,7 +10989,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bd2f3a98-6e52-4a94-ab38-275d334c21a6")
-		(property "Reference" "TP7"
+		(property "Reference" "TP20"
 			(at 191.516 155.702 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11051,7 +11051,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
-					(reference "TP7")
+					(reference "TP20")
 					(unit 1)
 				)
 			)
@@ -11070,7 +11070,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c029ad21-108d-4e76-a120-b3db9085eb86")
-		(property "Reference" "R14"
+		(property "Reference" "R48"
 			(at 105.41 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11156,7 +11156,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
-					(reference "R14")
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -11174,7 +11174,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6235bfc-2980-435a-b50a-dac9fcc9e378")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR072"
 			(at 110.49 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -11234,7 +11234,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
-					(reference "#PWR023")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -11252,7 +11252,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0cafee9-5934-4129-ab3f-7929fd44b12e")
-		(property "Reference" "C59"
+		(property "Reference" "C46"
 			(at 248.92 30.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11338,7 +11338,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
-					(reference "C59")
+					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -11356,7 +11356,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d17d81e9-bd88-4462-b118-e333fe96392a")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR065"
 			(at 71.12 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -11416,7 +11416,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
-					(reference "#PWR028")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -11433,7 +11433,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d2fba0e2-00dc-4a76-9505-589504c8949d")
-		(property "Reference" "Y1"
+		(property "Reference" "Y2"
 			(at 95.25 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11517,7 +11517,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
-					(reference "Y1")
+					(reference "Y2")
 					(unit 1)
 				)
 			)
@@ -11648,7 +11648,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d508df66-3881-437c-881b-fd57d31cb4d7")
-		(property "Reference" "TP9"
+		(property "Reference" "TP22"
 			(at 201.676 155.702 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11710,7 +11710,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
-					(reference "TP9")
+					(reference "TP22")
 					(unit 1)
 				)
 			)
@@ -11907,7 +11907,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "de0953d5-bfed-46af-af80-889f22e8e3a6")
-		(property "Reference" "TP13"
+		(property "Reference" "TP26"
 			(at 221.996 155.702 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11969,7 +11969,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
-					(reference "TP13")
+					(reference "TP26")
 					(unit 1)
 				)
 			)
@@ -11987,7 +11987,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df92ab1d-5537-4089-8900-4666ace02ef7")
-		(property "Reference" "C57"
+		(property "Reference" "C44"
 			(at 223.52 30.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12073,7 +12073,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
-					(reference "C57")
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -12091,7 +12091,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1a48836-7c63-4a3f-874a-dbb5565b33a3")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR076"
 			(at 168.91 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -12151,7 +12151,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
-					(reference "#PWR068")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -12169,7 +12169,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e700ad2b-4cb0-4203-aed9-68a949d01f8e")
-		(property "Reference" "C56"
+		(property "Reference" "C43"
 			(at 210.82 30.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12255,7 +12255,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
-					(reference "C56")
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -12274,7 +12274,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0c29084-d60d-4487-8ed3-2ef7dfd7705d")
-		(property "Reference" "R65"
+		(property "Reference" "R44"
 			(at 67.31 143.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12360,7 +12360,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
-					(reference "R65")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -12378,7 +12378,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0ce5b1c-0fdc-42a4-bf94-0688c9affbc3")
-		(property "Reference" "C58"
+		(property "Reference" "C45"
 			(at 236.22 30.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12464,7 +12464,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
-					(reference "C58")
+					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -12482,7 +12482,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2ef023f-504d-4439-8b9c-afaaacaa6ec9")
-		(property "Reference" "#PWR0111"
+		(property "Reference" "#PWR058"
 			(at 26.67 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -12542,7 +12542,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
-					(reference "#PWR0111")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -12560,7 +12560,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fda2a2ce-77e1-447b-a3aa-e195773008ad")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR075"
 			(at 151.13 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -12620,7 +12620,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/06f2505c-1bc0-4f35-88c2-eca33d853bec"
-					(reference "#PWR025")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)

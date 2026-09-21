@@ -2138,7 +2138,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "031d6c25-f704-4a07-b1b4-e5dc640292ad")
-		(property "Reference" "R66"
+		(property "Reference" "R68"
 			(at 104.14 62.23 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2213,6 +2213,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 104.14 68.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 104.14 68.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "df069824-b624-4748-9349-e89d1d3034e0")
 		)
@@ -2222,7 +2244,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/1de2bfe4-d06c-418a-8aa4-20489bb03fc3"
-					(reference "R66")
+					(reference "R68")
 					(unit 1)
 				)
 			)
@@ -2240,7 +2262,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c573be4-0bc9-4ec9-8896-6227f5262a61")
-		(property "Reference" "R65"
+		(property "Reference" "R67"
 			(at 104.14 45.72 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2315,6 +2337,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 104.14 52.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 104.14 52.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "897346c8-dd1c-4559-8a1d-a459ba444fdb")
 		)
@@ -2324,7 +2368,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/1de2bfe4-d06c-418a-8aa4-20489bb03fc3"
-					(reference "R65")
+					(reference "R67")
 					(unit 1)
 				)
 			)
@@ -2342,7 +2386,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f175e90-2d98-4d43-81c5-cd287c500458")
-		(property "Reference" "#PWR0129"
+		(property "Reference" "#PWR0132"
 			(at 109.22 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -2402,7 +2446,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/1de2bfe4-d06c-418a-8aa4-20489bb03fc3"
-					(reference "#PWR0129")
+					(reference "#PWR0132")
 					(unit 1)
 				)
 			)
@@ -2420,7 +2464,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23b1cd27-bcc1-4d60-9029-f0e14ff7ceab")
-		(property "Reference" "R71"
+		(property "Reference" "R73"
 			(at 104.14 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2495,6 +2539,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 104.14 151.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 104.14 151.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ad110da2-fbae-4eeb-b731-7b0fc109b206")
 		)
@@ -2504,7 +2570,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/1de2bfe4-d06c-418a-8aa4-20489bb03fc3"
-					(reference "R71")
+					(reference "R73")
 					(unit 1)
 				)
 			)
@@ -2522,7 +2588,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27a29582-f112-40a8-b21d-f4dc44d949e7")
-		(property "Reference" "#PWR0130"
+		(property "Reference" "#PWR0133"
 			(at 109.22 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -2582,7 +2648,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/1de2bfe4-d06c-418a-8aa4-20489bb03fc3"
-					(reference "#PWR0130")
+					(reference "#PWR0133")
 					(unit 1)
 				)
 			)
@@ -2600,7 +2666,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2da66702-162f-47f1-b7e9-e8c20be96142")
-		(property "Reference" "C61"
+		(property "Reference" "C62"
 			(at 105.41 138.4299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2677,6 +2743,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 109.22 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 109.22 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "350554b2-5507-4c56-a248-4bf90f2bf787")
 		)
@@ -2686,7 +2774,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/1de2bfe4-d06c-418a-8aa4-20489bb03fc3"
-					(reference "C61")
+					(reference "C62")
 					(unit 1)
 				)
 			)
@@ -2704,7 +2792,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e94e688-3b17-4243-bf85-807b232b93ca")
-		(property "Reference" "#PWR0139"
+		(property "Reference" "#PWR0142"
 			(at 187.96 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -2764,7 +2852,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/1de2bfe4-d06c-418a-8aa4-20489bb03fc3"
-					(reference "#PWR0139")
+					(reference "#PWR0142")
 					(unit 1)
 				)
 			)
@@ -2782,7 +2870,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "470db06f-8e85-498d-b7ab-5468840827e9")
-		(property "Reference" "C63"
+		(property "Reference" "C64"
 			(at 105.41 171.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2859,6 +2947,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 109.22 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 109.22 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0846d378-a830-4a04-978e-59d447fff1f0")
 		)
@@ -2868,7 +2978,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/1de2bfe4-d06c-418a-8aa4-20489bb03fc3"
-					(reference "C63")
+					(reference "C64")
 					(unit 1)
 				)
 			)
@@ -2886,7 +2996,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "491041d7-525c-41fb-b589-0d045d7833e4")
-		(property "Reference" "#PWR0133"
+		(property "Reference" "#PWR0136"
 			(at 109.22 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -2946,7 +3056,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/1de2bfe4-d06c-418a-8aa4-20489bb03fc3"
-					(reference "#PWR0133")
+					(reference "#PWR0136")
 					(unit 1)
 				)
 			)
@@ -2964,7 +3074,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5fc9a830-7b6b-488d-b4e3-b47d3adebcea")
-		(property "Reference" "#PWR0136"
+		(property "Reference" "#PWR0139"
 			(at 148.59 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -3024,7 +3134,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/1de2bfe4-d06c-418a-8aa4-20489bb03fc3"
-					(reference "#PWR0136")
+					(reference "#PWR0139")
 					(unit 1)
 				)
 			)
@@ -3042,7 +3152,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6265dd07-56c6-41bd-b361-d20cc62044b0")
-		(property "Reference" "C60"
+		(property "Reference" "C61"
 			(at 105.41 121.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3119,6 +3229,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 109.22 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 109.22 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "823c82b0-233e-49fd-aecf-289c2061d373")
 		)
@@ -3128,7 +3260,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/1de2bfe4-d06c-418a-8aa4-20489bb03fc3"
-					(reference "C60")
+					(reference "C61")
 					(unit 1)
 				)
 			)
@@ -3146,7 +3278,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6433deb2-f766-4a70-b2c6-65bac908da48")
-		(property "Reference" "C64"
+		(property "Reference" "C65"
 			(at 184.15 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3223,6 +3355,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 187.96 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 187.96 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b96664af-6d30-4d3c-bb75-e782e544cc50")
 		)
@@ -3232,7 +3386,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/1de2bfe4-d06c-418a-8aa4-20489bb03fc3"
-					(reference "C64")
+					(reference "C65")
 					(unit 1)
 				)
 			)
@@ -3250,7 +3404,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6beffaa3-bc38-4df4-8863-9a5d26d1f533")
-		(property "Reference" "#PWR0131"
+		(property "Reference" "#PWR0134"
 			(at 109.22 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -3310,7 +3464,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/1de2bfe4-d06c-418a-8aa4-20489bb03fc3"
-					(reference "#PWR0131")
+					(reference "#PWR0134")
 					(unit 1)
 				)
 			)
@@ -3327,7 +3481,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "726b878f-629c-4781-94ea-3f687e4c541b")
-		(property "Reference" "C65"
+		(property "Reference" "C66"
 			(at 198.12 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3404,6 +3558,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 194.31 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 194.31 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "361026ed-326e-4d77-8903-7aed5cb6e788")
 		)
@@ -3413,7 +3589,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/1de2bfe4-d06c-418a-8aa4-20489bb03fc3"
-					(reference "C65")
+					(reference "C66")
 					(unit 1)
 				)
 			)
@@ -3431,7 +3607,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7c5aa01b-ddfb-435b-97b8-20ca2a47a9c4")
-		(property "Reference" "C56"
+		(property "Reference" "C57"
 			(at 105.41 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3508,6 +3684,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 109.22 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 109.22 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "277c6ba2-4909-461c-a3df-1b623900a91b")
 		)
@@ -3517,7 +3715,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/1de2bfe4-d06c-418a-8aa4-20489bb03fc3"
-					(reference "C56")
+					(reference "C57")
 					(unit 1)
 				)
 			)
@@ -3535,7 +3733,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7d28d3d7-c8f5-4ce1-96aa-0f0bc8f3af21")
-		(property "Reference" "C58"
+		(property "Reference" "C59"
 			(at 105.41 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3612,6 +3810,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 109.22 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 109.22 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "aa21ab63-e9a2-430e-be08-2634dcfbf847")
 		)
@@ -3621,7 +3841,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/1de2bfe4-d06c-418a-8aa4-20489bb03fc3"
-					(reference "C58")
+					(reference "C59")
 					(unit 1)
 				)
 			)
@@ -3639,7 +3859,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7e3154af-33ad-456d-91df-1ed8e1d4add6")
-		(property "Reference" "C57"
+		(property "Reference" "C58"
 			(at 105.41 72.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3716,6 +3936,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 109.22 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 109.22 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0f8aea5d-1b53-4e86-9104-507eecf1d087")
 		)
@@ -3725,7 +3967,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/1de2bfe4-d06c-418a-8aa4-20489bb03fc3"
-					(reference "C57")
+					(reference "C58")
 					(unit 1)
 				)
 			)
@@ -3743,7 +3985,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81f9c144-ae3e-47c7-a83c-26bdc1dd34ac")
-		(property "Reference" "#PWR0128"
+		(property "Reference" "#PWR0131"
 			(at 109.22 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -3803,7 +4045,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/1de2bfe4-d06c-418a-8aa4-20489bb03fc3"
-					(reference "#PWR0128")
+					(reference "#PWR0131")
 					(unit 1)
 				)
 			)
@@ -3821,7 +4063,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81fe65ce-9fdf-4863-b3a3-27ca939be124")
-		(property "Reference" "#PWR0132"
+		(property "Reference" "#PWR0135"
 			(at 109.22 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -3881,7 +4123,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/1de2bfe4-d06c-418a-8aa4-20489bb03fc3"
-					(reference "#PWR0132")
+					(reference "#PWR0135")
 					(unit 1)
 				)
 			)
@@ -3899,7 +4141,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f133427-6541-466d-9a76-9d648835aa13")
-		(property "Reference" "R72"
+		(property "Reference" "R74"
 			(at 104.14 161.29 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3974,6 +4216,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 104.14 167.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 104.14 167.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4aaf74ec-0077-4d0c-9dc4-a3aba6804fc6")
 		)
@@ -3983,7 +4247,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/1de2bfe4-d06c-418a-8aa4-20489bb03fc3"
-					(reference "R72")
+					(reference "R74")
 					(unit 1)
 				)
 			)
@@ -4001,7 +4265,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90d8750c-617d-4803-a870-659bcac24f44")
-		(property "Reference" "#PWR0134"
+		(property "Reference" "#PWR0137"
 			(at 109.22 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -4061,7 +4325,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/1de2bfe4-d06c-418a-8aa4-20489bb03fc3"
-					(reference "#PWR0134")
+					(reference "#PWR0137")
 					(unit 1)
 				)
 			)
@@ -4079,7 +4343,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9db66185-535d-4018-90c7-d51626837cc7")
-		(property "Reference" "#PWR0135"
+		(property "Reference" "#PWR0138"
 			(at 109.22 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -4139,7 +4403,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/1de2bfe4-d06c-418a-8aa4-20489bb03fc3"
-					(reference "#PWR0135")
+					(reference "#PWR0138")
 					(unit 1)
 				)
 			)
@@ -4157,7 +4421,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b45d53fc-b36d-4ade-9268-f9dad13ceeae")
-		(property "Reference" "#PWR0137"
+		(property "Reference" "#PWR0140"
 			(at 148.59 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -4217,7 +4481,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/1de2bfe4-d06c-418a-8aa4-20489bb03fc3"
-					(reference "#PWR0137")
+					(reference "#PWR0140")
 					(unit 1)
 				)
 			)
@@ -4235,7 +4499,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c961b3f1-b18a-4f50-b171-2fd5c1b467f6")
-		(property "Reference" "C62"
+		(property "Reference" "C63"
 			(at 105.41 154.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4312,6 +4576,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 109.22 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 109.22 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "32d16f53-c351-44a3-ab94-bd49609da8ab")
 		)
@@ -4321,7 +4607,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/1de2bfe4-d06c-418a-8aa4-20489bb03fc3"
-					(reference "C62")
+					(reference "C63")
 					(unit 1)
 				)
 			)
@@ -4339,7 +4625,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cdaa9f5b-1cfc-45f2-9770-6a05d32675f5")
-		(property "Reference" "#PWR0138"
+		(property "Reference" "#PWR0141"
 			(at 187.96 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -4399,7 +4685,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/1de2bfe4-d06c-418a-8aa4-20489bb03fc3"
-					(reference "#PWR0138")
+					(reference "#PWR0141")
 					(unit 1)
 				)
 			)
@@ -4417,7 +4703,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d192c8fe-2092-4eb6-85e2-e683595bafe7")
-		(property "Reference" "R69"
+		(property "Reference" "R71"
 			(at 104.14 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4492,6 +4778,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 104.14 118.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 104.14 118.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "884fa209-3a32-447f-a911-e5bc6d9992c1")
 		)
@@ -4501,7 +4809,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/1de2bfe4-d06c-418a-8aa4-20489bb03fc3"
-					(reference "R69")
+					(reference "R71")
 					(unit 1)
 				)
 			)
@@ -4519,7 +4827,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da65bfc0-3602-47c9-8cc6-9ba12f3f2862")
-		(property "Reference" "R68"
+		(property "Reference" "R70"
 			(at 104.14 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4594,6 +4902,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 104.14 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 104.14 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "13c07f78-f2c5-4d75-a43a-e887c04b5bc8")
 		)
@@ -4603,7 +4933,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/1de2bfe4-d06c-418a-8aa4-20489bb03fc3"
-					(reference "R68")
+					(reference "R70")
 					(unit 1)
 				)
 			)
@@ -4621,7 +4951,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0177e92-7de8-4f8c-8874-62ccf6c571b7")
-		(property "Reference" "R67"
+		(property "Reference" "R69"
 			(at 104.14 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4696,6 +5026,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 104.14 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 104.14 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "138d8913-968b-44c7-8f0c-dc09aab300fb")
 		)
@@ -4705,7 +5057,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/1de2bfe4-d06c-418a-8aa4-20489bb03fc3"
-					(reference "R67")
+					(reference "R69")
 					(unit 1)
 				)
 			)
@@ -4723,7 +5075,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed8e1c7c-64fa-4e67-8535-2e358e356335")
-		(property "Reference" "U8"
+		(property "Reference" "U9"
 			(at 155.8133 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4800,6 +5152,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 151.13 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 151.13 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f0f36738-9e1f-4229-9ba6-a381a5cc869e")
 		)
@@ -4851,7 +5225,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/1de2bfe4-d06c-418a-8aa4-20489bb03fc3"
-					(reference "U8")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -4869,7 +5243,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ef899605-3e7c-42d8-ba56-4aafd145e988")
-		(property "Reference" "C59"
+		(property "Reference" "C60"
 			(at 105.41 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4946,6 +5320,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 109.22 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 109.22 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ace44263-76d1-43ed-b45d-008f9ae49a4b")
 		)
@@ -4955,7 +5351,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/1de2bfe4-d06c-418a-8aa4-20489bb03fc3"
-					(reference "C59")
+					(reference "C60")
 					(unit 1)
 				)
 			)
@@ -4973,7 +5369,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9cb5134-a9db-4b16-b52e-54111e288606")
-		(property "Reference" "R70"
+		(property "Reference" "R72"
 			(at 104.14 128.27 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5048,6 +5444,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 104.14 134.62 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 104.14 134.62 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4dff5ffb-6b19-48bc-9f5b-1ca7ca5134f8")
 		)
@@ -5057,7 +5475,7 @@
 		(instances
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/1de2bfe4-d06c-418a-8aa4-20489bb03fc3"
-					(reference "R70")
+					(reference "R72")
 					(unit 1)
 				)
 			)

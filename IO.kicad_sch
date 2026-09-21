@@ -7800,7 +7800,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 153.67 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -7855,7 +7855,7 @@
 				)
 			)
 		)
-		(property "Digikey PN" "SS24FLCT-ND"
+		(property "Digikey PN" "5399-SS32CT-ND"
 			(at 153.67 41.91 90)
 			(hide yes)
 			(show_name no)
@@ -7866,7 +7866,7 @@
 				)
 			)
 		)
-		(property "Unit Cost" "0.42"
+		(property "Unit Cost" "0.10"
 			(at 153.67 41.91 90)
 			(hide yes)
 			(show_name no)
@@ -10152,7 +10152,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-923"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 161.29 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -10185,7 +10185,7 @@
 				)
 			)
 		)
-		(property "Digikey PN" "ESD9X5.0ST5GOSCT-ND"
+		(property "Digikey PN" "5399-SMAJ6.0ACT-ND"
 			(at 161.29 41.91 90)
 			(hide yes)
 			(show_name no)

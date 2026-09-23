@@ -3688,6 +3688,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 40.64) (xy 173.99 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "152ceeb9-4550-42bf-b4cb-b691e35ae4a5")
+	)
+	(wire
+		(pts
 			(xy 91.44 41.91) (xy 91.44 43.18)
 		)
 		(stroke
@@ -4648,6 +4658,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 43.18) (xy 173.99 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "750e62ff-41a1-430c-9996-b3ebe43c15f7")
+	)
+	(wire
+		(pts
 			(xy 156.21 74.93) (xy 162.56 74.93)
 		)
 		(stroke
@@ -5228,16 +5248,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 43.18) (xy 171.45 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b194e371-5c9b-41cb-9f77-1381de86fff6")
-	)
-	(wire
-		(pts
 			(xy 127 50.8) (xy 127 52.07)
 		)
 		(stroke
@@ -5485,16 +5495,6 @@
 			(type default)
 		)
 		(uuid "cd386000-12d9-4341-b302-95776552f71c")
-	)
-	(wire
-		(pts
-			(xy 173.99 40.64) (xy 171.45 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf81cebf-33f1-40e0-a58a-c8a0c59105af")
 	)
 	(wire
 		(pts
@@ -14376,7 +14376,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 179.07 40.64 0)
+		(at 179.07 43.18 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14384,10 +14385,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c3999fdb-caef-4eae-a8b2-8a14cb089bc1")
 		(property "Reference" "J12"
-			(at 181.61 40.6399 0)
+			(at 181.61 43.1801 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14398,7 +14398,7 @@
 			)
 		)
 		(property "Value" "5VIN"
-			(at 181.61 43.1799 0)
+			(at 181.61 40.6401 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14409,7 +14409,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 179.07 40.64 0)
+			(at 179.07 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14420,7 +14420,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 40.64 0)
+			(at 179.07 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14431,7 +14431,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 179.07 40.64 0)
+			(at 179.07 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14442,7 +14442,7 @@
 			)
 		)
 		(property "Digikey PN" "455-B2B-XH-A-ND"
-			(at 179.07 40.64 0)
+			(at 179.07 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14453,7 +14453,7 @@
 			)
 		)
 		(property "Unit Cost" "0.10"
-			(at 179.07 40.64 0)
+			(at 179.07 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14464,7 +14464,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 179.07 40.64 0)
+			(at 179.07 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14475,7 +14475,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 179.07 40.64 0)
+			(at 179.07 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

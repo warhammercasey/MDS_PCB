@@ -4,4 +4,5 @@
 	(lib (name "TLV320ADC5140") (type "KiCad") (uri "${KIPRJMOD}/libs/TLV320ADC5140IRTWR/KiCADv6/TLV320ADC5140.pretty") (options "") (descr ""))
 	(lib (name "TLV320ADC5140") (type "KiCad") (uri "${KIPRJMOD}/libs/TLV320ADC5140IRTWR/KiCADv6/TLV320ADC5140.pretty") (options "") (descr ""))
 	(lib (name "TLV320ADC5140") (type "KiCad") (uri "${KIPRJMOD}/libs/TLV320ADC5140IRTWR/KiCADv6/TLV320ADC5140.pretty") (options "") (descr ""))
+	(lib (name "SN74LV244AQDGSRQ1") (type "KiCad") (uri "${KIPRJMOD}/libs/ul_SN74LV244AQDGSRQ1/KiCADv6/SN74LV244AQDGSRQ1.pretty") (options "") (descr ""))
 )

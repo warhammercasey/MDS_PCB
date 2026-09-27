@@ -2932,7 +2932,7 @@
 	)
 	(rectangle
 		(start 132.08 99.06)
-		(end 240.03 144.78)
+		(end 247.65 144.78)
 		(stroke
 			(width 0)
 			(type default)
@@ -6527,7 +6527,7 @@
 		)
 		(uuid "57d2d919-12c3-47f0-9fb4-02f48692a627")
 	)
-	(hierarchical_label "FT{SCLK MOSI MISO CS RESETN HOLD}"
+	(hierarchical_label "FT{SCLK MOSI MISO CS RESETN HOLD CDONE}"
 		(shape bidirectional)
 		(at 200.66 133.35 0)
 		(effects

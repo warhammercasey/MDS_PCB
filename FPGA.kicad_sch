@@ -8875,6 +8875,15 @@
 		(uuid "203bf704-0d40-43c6-b638-66d7b6f9c0bc")
 	)
 	(bus_entry
+		(at 60.96 170.18)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22d4ecac-c874-43e1-b981-b385425c28cf")
+	)
+	(bus_entry
 		(at 71.12 181.61)
 		(size -2.54 2.54)
 		(stroke
@@ -11203,7 +11212,7 @@
 	)
 	(bus
 		(pts
-			(xy 67.31 170.18) (xy 68.58 170.18)
+			(xy 59.69 170.18) (xy 68.58 170.18)
 		)
 		(stroke
 			(width 0)
@@ -12260,6 +12269,16 @@
 			(type default)
 		)
 		(uuid "c2a19595-4641-41ee-a5fb-55d2acff4d9f")
+	)
+	(wire
+		(pts
+			(xy 63.5 172.72) (xy 73.66 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2f22b3b-0fe9-4117-8812-b564aa7107e1")
 	)
 	(wire
 		(pts
@@ -13421,7 +13440,7 @@
 		)
 		(uuid "7fa567e5-30af-40dc-80ee-4d096766b169")
 	)
-	(label "CDONE"
+	(label "FT.CDONE"
 		(at 124.46 180.34 0)
 		(effects
 			(font
@@ -13451,7 +13470,7 @@
 		)
 		(uuid "83aa59eb-74a5-4ffc-8b19-9b4adaa88414")
 	)
-	(label "CDONE"
+	(label "FT.CDONE"
 		(at 114.3 93.98 180)
 		(effects
 			(font
@@ -13791,6 +13810,16 @@
 		)
 		(uuid "d69e4133-8573-4c63-bf68-b3a10d54c490")
 	)
+	(label "FT.CDONE"
+		(at 73.66 172.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d7fb1070-db79-4e2e-b9bc-604e3be2fe0c")
+	)
 	(label "JTAG.TCK"
 		(at 34.29 147.32 90)
 		(effects
@@ -14039,9 +14068,9 @@
 		)
 		(uuid "a3da172e-b323-441d-9f7b-558be40cd497")
 	)
-	(hierarchical_label "FT{SCLK MOSI MISO CS RESETN HOLD}"
+	(hierarchical_label "FT{SCLK MOSI MISO CS RESETN HOLD CDONE}"
 		(shape bidirectional)
-		(at 67.31 170.18 180)
+		(at 59.69 170.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)

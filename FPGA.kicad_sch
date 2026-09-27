@@ -1007,6 +1007,148 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:NetTie_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "NT"
+				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NetTie_2"
+				(at 0 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Net tie, 2 pins"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "net tie short"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Net*Tie*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "NetTie_2_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NetTie_2_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_US"
 			(pin_numbers
 				(hide yes)
@@ -3129,195 +3271,6 @@
 						)
 					)
 					(number "100"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Jumper:SolderJumper_2_Bridged"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "JP"
-				(at 0 2.032 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SolderJumper_2_Bridged"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "solder jumper SPST"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SolderJumper*Bridged*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SolderJumper_2_Bridged_0_1"
-				(rectangle
-					(start -0.508 0.508)
-					(end 0.508 -0.508)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 1.016) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 -1.016)
-					(mid -1.2656 0)
-					(end -0.254 1.016)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.016) (xy 0.254 -1.016)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SolderJumper_2_Bridged_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9998,6 +9951,16 @@
 		)
 		(uuid "256446bf-50e7-4285-bda3-af2f61ba3af1")
 	)
+	(wire
+		(pts
+			(xy 242.57 147.32) (xy 252.73 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "258ef899-2723-4ae2-97c2-a9b4c6ce7ae5")
+	)
 	(bus
 		(pts
 			(xy 176.53 34.29) (xy 177.8 34.29)
@@ -10150,7 +10113,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 58.42) (xy 269.24 63.5)
+			(xy 269.24 58.42) (xy 269.24 68.58)
 		)
 		(stroke
 			(width 0)
@@ -10517,6 +10480,16 @@
 			(type default)
 		)
 		(uuid "4cc02695-6318-4c70-ab7a-c1140001e759")
+	)
+	(wire
+		(pts
+			(xy 242.57 144.78) (xy 252.73 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ccfd668-418b-4eaf-81a0-2a8f2bb276b9")
 	)
 	(wire
 		(pts
@@ -12230,16 +12203,6 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 147.32) (xy 252.73 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bea708bf-c642-4190-9a36-b38e427a81b5")
-	)
-	(wire
-		(pts
 			(xy 21.59 63.5) (xy 20.32 63.5)
 		)
 		(stroke
@@ -12730,16 +12693,6 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 144.78) (xy 252.73 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec9427fa-88a2-40ec-9117-b1e5583770e2")
-	)
-	(wire
-		(pts
 			(xy 44.45 43.18) (xy 45.72 43.18)
 		)
 		(stroke
@@ -13008,7 +12961,7 @@
 		)
 		(uuid "ff6102bf-9bfd-4ddc-a79b-d1f60d938eeb")
 	)
-	(label "RMII.RXER"
+	(label "RMII.MDC"
 		(at 248.92 72.39 0)
 		(effects
 			(font
@@ -13058,7 +13011,7 @@
 		)
 		(uuid "09cf5525-f870-4800-9857-60c731b159cc")
 	)
-	(label "RMII.TXD0"
+	(label "RMII.TXD1"
 		(at 248.92 57.15 0)
 		(effects
 			(font
@@ -13078,7 +13031,7 @@
 		)
 		(uuid "1517a9c9-f499-470b-a25a-2abed37b1b8e")
 	)
-	(label "RMII.RXD1"
+	(label "RMII.INT"
 		(at 248.92 69.85 0)
 		(effects
 			(font
@@ -13148,7 +13101,7 @@
 		)
 		(uuid "238f4e89-fea0-46a1-a487-12edd1769f47")
 	)
-	(label "UART.TX"
+	(label "UART.RX"
 		(at 264.16 52.07 180)
 		(effects
 			(font
@@ -13178,7 +13131,7 @@
 		)
 		(uuid "28e46bb8-07c2-48b6-95a8-60e37f8e246a")
 	)
-	(label "RMII.CRS_DV"
+	(label "RMII.MDIO"
 		(at 248.92 74.93 0)
 		(effects
 			(font
@@ -13238,7 +13191,7 @@
 		)
 		(uuid "370b482e-05a0-4806-93ee-8e9cf843a940")
 	)
-	(label "I2S.DATA3"
+	(label "I2S.DATA0"
 		(at 180.34 31.75 0)
 		(effects
 			(font
@@ -13298,7 +13251,7 @@
 		)
 		(uuid "4eafd378-c391-470a-a339-fc2a24849750")
 	)
-	(label "RMII.MDC"
+	(label "RMII.RXER"
 		(at 248.92 80.01 0)
 		(effects
 			(font
@@ -13358,7 +13311,7 @@
 		)
 		(uuid "6417317a-fb0d-4b48-b001-82ffb5f4effd")
 	)
-	(label "UART.RX"
+	(label "UART.TX"
 		(at 264.16 54.61 180)
 		(effects
 			(font
@@ -13408,7 +13361,7 @@
 		)
 		(uuid "769edc80-4ddf-43fb-9a54-3f964533f990")
 	)
-	(label "I2S.DATA1"
+	(label "I2S.DATA2"
 		(at 180.34 26.67 0)
 		(effects
 			(font
@@ -13418,7 +13371,7 @@
 		)
 		(uuid "76ec70b0-b1ed-42e5-8d1d-f5b173a18319")
 	)
-	(label "RMII.TXD1"
+	(label "RMII.TXD0"
 		(at 248.92 59.69 0)
 		(effects
 			(font
@@ -13439,7 +13392,7 @@
 		(uuid "776417a7-3590-4f04-89ad-ec9212eda89f")
 	)
 	(label "RAM.SIO1"
-		(at 243.84 144.78 0)
+		(at 242.57 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13529,7 +13482,7 @@
 		(uuid "884b6fc9-a6d5-4476-a76f-1050f32c0436")
 	)
 	(label "RAM.SIO0"
-		(at 243.84 142.24 0)
+		(at 242.57 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13589,7 +13542,7 @@
 		(uuid "9771d89f-14a2-4e13-be4f-be1e073f0967")
 	)
 	(label "RAM.SIO2"
-		(at 243.84 147.32 0)
+		(at 242.57 147.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13608,7 +13561,7 @@
 		)
 		(uuid "97d13e0d-80cf-4c46-86c3-8bdf6eaed22f")
 	)
-	(label "I2S.DATA0"
+	(label "I2S.DATA3"
 		(at 180.34 24.13 0)
 		(effects
 			(font
@@ -13688,7 +13641,7 @@
 		)
 		(uuid "b26ce916-2bc5-41f1-a6d2-1da8366e5d4b")
 	)
-	(label "I2S.DATA2"
+	(label "I2S.DATA1"
 		(at 180.34 29.21 0)
 		(effects
 			(font
@@ -13739,7 +13692,7 @@
 		(uuid "c6d736e0-60f1-470d-89ae-310cab8a085a")
 	)
 	(label "RAM.SIO3"
-		(at 243.84 149.86 0)
+		(at 242.57 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13769,7 +13722,7 @@
 		(uuid "cdfe3853-8bb7-44ff-b212-0b01977ea53c")
 	)
 	(label "RAM.CS"
-		(at 243.84 137.16 0)
+		(at 242.57 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13788,7 +13741,7 @@
 		)
 		(uuid "cfc4ef0f-69a9-4971-9aa1-67dd09a29d41")
 	)
-	(label "RMII.INT"
+	(label "RMII.RXD1"
 		(at 248.92 85.09 0)
 		(effects
 			(font
@@ -13858,7 +13811,7 @@
 		)
 		(uuid "dce6dc2e-2dff-4d28-b96f-d499531c01e1")
 	)
-	(label "RMII.MDIO"
+	(label "RMII.CRS_DV"
 		(at 248.92 77.47 0)
 		(effects
 			(font
@@ -13878,7 +13831,7 @@
 		)
 		(uuid "e075a285-f97c-4038-b131-93a09135ba44")
 	)
-	(label "RMII.RXD0"
+	(label "RMII.RSTN"
 		(at 248.92 64.77 0)
 		(effects
 			(font
@@ -13908,7 +13861,7 @@
 		)
 		(uuid "e5542f3e-6395-4f77-8e44-fa662885af08")
 	)
-	(label "RMII.RSTN"
+	(label "RMII.RXD0"
 		(at 248.92 82.55 0)
 		(effects
 			(font
@@ -13939,7 +13892,7 @@
 		(uuid "ed6014ea-9a26-4f13-803d-1ac7c78ed6e7")
 	)
 	(label "RAM.SCK"
-		(at 243.84 139.7 0)
+		(at 242.57 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14500,107 +14453,6 @@
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/084d8d2f-03c9-428d-952f-0b395d0c8827"
 					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 242.57 144.78 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0c9c2d1e-0e3f-41e7-84b9-d730b1af4d04")
-		(property "Reference" "TP7"
-			(at 233.68 144.78 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 237.9981 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 242.57 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 242.57 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 242.57 144.78 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 242.57 144.78 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4ac79ab1-0135-4b3d-812a-7167b9e9047d")
-		)
-		(instances
-			(project "fpga_pcb"
-				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/084d8d2f-03c9-428d-952f-0b395d0c8827"
-					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -16060,107 +15912,6 @@
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/084d8d2f-03c9-428d-952f-0b395d0c8827"
 					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 242.57 147.32 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "19a12ed6-d964-4818-b3c6-48cdd8cae050")
-		(property "Reference" "TP8"
-			(at 233.68 147.32 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 237.9981 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 242.57 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 242.57 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 242.57 147.32 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 242.57 147.32 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "559fdc65-6027-4fe8-8218-2599a313a90a")
-		)
-		(instances
-			(project "fpga_pcb"
-				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/084d8d2f-03c9-428d-952f-0b395d0c8827"
-					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -18044,111 +17795,6 @@
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/084d8d2f-03c9-428d-952f-0b395d0c8827"
 					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 269.24 68.58 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2dd8e09b-ad94-4665-963f-b140f3182837")
-		(property "Reference" "JP1"
-			(at 271.78 67.3099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SolderJumper_2_Bridged"
-			(at 271.78 69.8499 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
-			(at 269.24 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 262.89 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 264.16 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 269.24 68.58 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 269.24 68.58 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a2e8bc03-0e85-4d1f-8182-b5ef799eaeec")
-		)
-		(pin "1"
-			(uuid "85629796-8d32-4042-af9c-d7b4c14110ae")
-		)
-		(instances
-			(project "fpga_pcb"
-				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/084d8d2f-03c9-428d-952f-0b395d0c8827"
-					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -21025,107 +20671,6 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 242.57 142.24 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7432f053-2b8e-42f4-934b-8d02fd621cf0")
-		(property "Reference" "TP6"
-			(at 233.68 142.24 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 237.9981 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 242.57 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 242.57 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 242.57 142.24 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 242.57 142.24 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ec6c4ddb-1bf7-4d9f-abd2-626826191e5e")
-		)
-		(instances
-			(project "fpga_pcb"
-				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/084d8d2f-03c9-428d-952f-0b395d0c8827"
-					(reference "TP6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
 		(at 218.44 144.78 0)
 		(unit 1)
 		(body_style 1)
@@ -21220,107 +20765,6 @@
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/084d8d2f-03c9-428d-952f-0b395d0c8827"
 					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 242.57 137.16 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7e17287a-cca0-4497-a933-70129adb3def")
-		(property "Reference" "TP4"
-			(at 233.68 137.16 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 237.9981 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 242.57 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 242.57 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 242.57 137.16 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 242.57 137.16 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4337bf22-566d-454b-a0f1-ce82b80995ce")
-		)
-		(instances
-			(project "fpga_pcb"
-				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/084d8d2f-03c9-428d-952f-0b395d0c8827"
-					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -21758,107 +21202,6 @@
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/084d8d2f-03c9-428d-952f-0b395d0c8827"
 					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 242.57 149.86 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9b310717-30b4-40b4-9f42-7e1ed728444a")
-		(property "Reference" "TP9"
-			(at 233.68 149.86 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 237.9981 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 242.57 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 242.57 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 242.57 149.86 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 242.57 149.86 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "40a9af2f-845b-40b5-8ca5-d4ebd8922a3a")
-		)
-		(instances
-			(project "fpga_pcb"
-				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/084d8d2f-03c9-428d-952f-0b395d0c8827"
-					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -23329,6 +22672,88 @@
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/084d8d2f-03c9-428d-952f-0b395d0c8827"
 					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 269.24 71.12 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6ee735c-2dd2-4813-999a-11b6932921b2")
+		(property "Reference" "NT1"
+			(at 270.51 69.8499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 270.51 72.3899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
+			(at 269.24 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 269.24 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "087019f3-ee49-43c5-aeb9-6736804dddd5")
+		)
+		(pin "1"
+			(uuid "0dc35c24-e8de-4498-8152-7c820473d0a5")
+		)
+		(instances
+			(project "fpga_pcb"
+				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/084d8d2f-03c9-428d-952f-0b395d0c8827"
+					(reference "NT1")
 					(unit 1)
 				)
 			)
@@ -25668,107 +25093,6 @@
 			(project "fpga_pcb"
 				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/084d8d2f-03c9-428d-952f-0b395d0c8827"
 					(reference "C20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 242.57 139.7 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e76fcd58-997f-45bf-b8a1-582c92b90884")
-		(property "Reference" "TP5"
-			(at 233.68 139.7 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 237.9981 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 242.57 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 242.57 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 242.57 139.7 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 242.57 139.7 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "95e2e0fa-1f7e-463f-a06b-cf441c589bbe")
-		)
-		(instances
-			(project "fpga_pcb"
-				(path "/0e44f7b0-1a4a-4ef8-a122-38b9269be26a/084d8d2f-03c9-428d-952f-0b395d0c8827"
-					(reference "TP5")
 					(unit 1)
 				)
 			)

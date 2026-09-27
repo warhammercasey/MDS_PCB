@@ -2,3 +2,4 @@
 .history/
 *-backups/
 *.lck
+_restore_backup_*/

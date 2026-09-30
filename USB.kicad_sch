@@ -4892,7 +4892,7 @@
 	)
 	(text "SPI interface for programming FLASH.\nNote the FPGA RESETN and HOLD signals are included in this bus.\n	Efinix software expects them to be here and uses them for both \n	FLASH programming and JTAG programming."
 		(exclude_from_sim no)
-		(at 141.732 34.798 0)
+		(at 141.732 35.306 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4923,7 +4923,7 @@
 		)
 		(uuid "72d740bf-8d57-440c-9877-f4c9278d8757")
 	)
-	(text "Bit-bang interface. Might be able to do high-speed data transfer with custom host driver.\nTODO: Do these need to be differential pairs? \n	Im not sure what datarates bit-bang mode can handle."
+	(text "Bit-bang interface. Might be able to do high-speed data transfer with custom host driver."
 		(exclude_from_sim no)
 		(at 191.262 135.636 0)
 		(effects
@@ -5509,7 +5509,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 22.86) (xy 105.41 22.86)
+			(xy 80.01 22.86) (xy 132.08 22.86)
 		)
 		(stroke
 			(width 0)
@@ -5707,16 +5707,6 @@
 		)
 		(uuid "1c7d7cde-d8db-4dc3-8b3d-7773b20c41b8")
 	)
-	(bus
-		(pts
-			(xy 200.66 63.5) (xy 200.66 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1cffa0df-b705-45e1-8119-b6e7e6baa108")
-	)
 	(wire
 		(pts
 			(xy 147.32 48.26) (xy 147.32 46.99)
@@ -5766,6 +5756,16 @@
 			(type default)
 		)
 		(uuid "28885804-e30e-4067-8cb1-6f91827bc472")
+	)
+	(bus
+		(pts
+			(xy 200.66 67.31) (xy 200.66 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "295e6d54-13c1-4cbc-88c4-9c7483575c7c")
 	)
 	(wire
 		(pts
@@ -7289,7 +7289,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 54.61) (xy 218.44 54.61)
+			(xy 208.28 54.61) (xy 218.44 54.61)
 		)
 		(stroke
 			(width 0)
@@ -7336,16 +7336,6 @@
 			(type default)
 		)
 		(uuid "d274ea3c-d9e8-4194-98fb-7f5a24708698")
-	)
-	(wire
-		(pts
-			(xy 105.41 22.86) (xy 132.08 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5455770-c68e-480d-a11e-f87b14ccbf6e")
 	)
 	(wire
 		(pts
@@ -8068,7 +8058,7 @@
 		(uuid "74d6ac0d-75be-4176-9d03-86d338a38937")
 	)
 	(label "FT_ENA"
-		(at 210.82 54.61 0)
+		(at 208.28 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13058,6 +13048,28 @@
 				)
 			)
 		)
+		(property "Digikey PN" "497-5235-1-ND"
+			(at 81.28 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Cost" "0.54"
+			(at 81.28 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "8c64ed0f-ee74-48c5-b111-4ad845cd3785")
 		)
@@ -13926,6 +13938,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 218.44 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "296-SN74LV244AQDGSRQ1CT-ND"
+			(at 218.44 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Cost" "0.68"
 			(at 218.44 36.83 0)
 			(hide yes)
 			(show_name no)

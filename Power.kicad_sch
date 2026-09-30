@@ -3712,7 +3712,7 @@
 				)
 			)
 		)
-		(property "Digikey PN" "1276-1044-1-ND"
+		(property "Digikey PN" "1276-1045-1-ND"
 			(at 82.55 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -3723,7 +3723,7 @@
 				)
 			)
 		)
-		(property "Unit Cost" "0.044"
+		(property "Unit Cost" "0.041"
 			(at 82.55 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -8442,7 +8442,7 @@
 				)
 			)
 		)
-		(property "Digikey PN" "1276-1044-1-ND"
+		(property "Digikey PN" "1276-1045-1-ND"
 			(at 45.72 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -8453,7 +8453,7 @@
 				)
 			)
 		)
-		(property "Unit Cost" "0.044"
+		(property "Unit Cost" "0.041"
 			(at 45.72 74.93 0)
 			(hide yes)
 			(show_name no)
